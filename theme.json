@@ -257,11 +257,31 @@
 		}
 	},
   "styles": {
-
+	"blocks": {
+		"core/quote": {
+			"border": {
+				"width": "3px"
+			}
+		},
+		"core/separator": {
+			"border": {
+				"width": "1px"
+			}
+		},
+		"core/site-title": {
+			"typography": {
+				"fontWeight": "400",
+				"textTransform": "uppercase",
+				"fontStyle": "normal",
+				"fontSize": "var(--wp--preset--font-size--x-large)"
+			}
+		}
+	},
 		"color": {
 			"background": "var(--wp--preset--color--white)",
 			"text": "var(--wp--preset--color--gray)"
 		},
+		
     "elements": {
       "button": {
         "color": {
@@ -316,7 +336,7 @@
 				},
 				":active": {
 					"color": {
-						"text": "var(--wp--preset--color--secondary)"
+						"text": "var(--wp--preset--color--orange)"
 					},
 					"typography": {
 						"textDecoration": "none"

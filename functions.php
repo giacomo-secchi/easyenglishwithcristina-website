@@ -99,7 +99,25 @@ endif;
 add_action( 'wp_enqueue_scripts', 'eewc_scripts' );
 
 
+if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
+	/**
+	 * Sets up theme defaults and registers support for various WordPress features.
+	 *
+	 * @since Twenty Twenty-Two 1.0
+	 *
+	 * @return void
+	 */
+	function twentytwentytwo_support() {
 
+		// Add support for block styles.
+		add_theme_support( 'wp-block-styles' );
 
+		// Enqueue editor styles.
+		// add_editor_style( 'style.css' );
 
+	}
+
+endif;
+
+add_action( 'after_setup_theme', 'twentytwentytwo_support' );

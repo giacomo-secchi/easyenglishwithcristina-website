@@ -14,3 +14,759 @@ Template: twentytwentythree
 Text Domain: easyenglishwithcristinatheme
 Tags: blog, news, portfolio, one-column, wide-blocks, accessibility-ready, block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, rtl-language-support, sticky-post, threaded-comments, translation-ready
 */
+
+/**
+ * SETTINGS
+ * File-header..........The file header for the themes style.css file.
+ * Fonts................Any font files, if the project needs specific fonts.
+ * Global...............Project-specific, globally available variables.
+ *
+ * TOOLS
+ * Functions............Global functions.
+ * Mixins...............Global mixins.
+ *
+ * GENERIC
+ * Normalize.css........Normalise browser defaults.
+ * Breakpoints..........Mixins and variables for responsive styles
+ * Vertical-margins.....Vertical spacing for the main components.
+ * Reset................Reset specific elements to make them easier to style in other contexts.
+ * Clearings............Clearings for the main components.
+ *
+ * ELEMENTS
+ * Blockquote...........Default blockquote.
+ * Forms................Element-level form styling.
+ * Headings.............H1–H6
+ * Links................Default links.
+ * Lists................Default lists.
+ * Media................Images, Figure, Figcaption, Embed, iFrame, Objects, Video.
+ *
+ * BLOCKS
+ * Audio................Specific styles for the audio block.
+ * Button...............Specific styles for the button block.
+ * Code.................Specific styles for the code block.
+ * Columns..............Specific styles for the columns block.
+ * Cover................Specific styles for the cover block.
+ * File.................Specific styles for the file block.
+ * Gallery..............Specific styles for the gallery block.
+ * Group................Specific styles for the group block.
+ * Heading..............Specific styles for the heading block.
+ * Image................Specific styles for the image block.
+ * Latest comments......Specific styles for the latest comments block.
+ * Latest posts.........Specific styles for the latest posts block.
+ * Legacy...............Specific styles for the legacy gallery.
+ * List.................Specific styles for the list block.
+ * Media text...........Specific styles for the media and text block.
+ * Navigation...........Specific styles for the navigation block.
+ * Paragraph............Specific styles for the paragraph block.
+ * Pullquote............Specific styles for the pullquote block.
+ * Quote................Specific styles for the quote block.
+ * Search...............Specific styles for the search block.
+ * Separator............Specific styles for the separator block.
+ * Spacer...............Specific styles for the spacer block.
+ * Table................Specific styles for the table block.
+ * Verse................Specific styles for the verse block.
+ * Video................Specific styles for the video block.
+ * Utilities............Block alignments.
+ *
+ * COMPONENTS
+ * Header...............Header styles.
+ * Footer...............Footer styles.
+ * Comments.............Comment styles.
+ * Archives.............Archive styles.
+ * 404..................404 styles.
+ * Search...............Search styles.
+ * Navigation...........Navigation styles.
+ * Footer Navigation....Footer Navigation styles.
+ * Pagination...........Pagination styles.
+ * Single...............Single page and post styles.
+ * Posts and pages......Misc, sticky post styles.
+ * Entry................Entry, author biography.
+ * Widget...............Widget styles.
+ * Editor...............Editor styles.
+ *
+ * UTILITIES
+ * A11y.................Screen reader text, prefers reduced motion etc.
+ * Color Palette........Classes for the color palette colors.
+ * Editor Font Sizes....Editor Font Sizes.
+ * Measure..............The width of a line of text, in characters.
+ */
+/* Categories 01 to 03 are the basics. */
+/* Variables */
+:root {
+    /* Font Family */
+    --global--font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+    --global--font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+    /* Font Size */
+    --global--font-size-base: 1.25rem;
+    --global--font-size-xs: 1rem;
+    --global--font-size-sm: 1.125rem;
+    --global--font-size-md: 1.25rem;
+    --global--font-size-lg: 1.5rem;
+    --global--font-size-xl: 2.25rem;
+    --global--font-size-xxl: 4rem;
+    --global--font-size-xxxl: 5rem;
+    --global--font-size-page-title: var(--global--font-size-xxl);
+    --global--letter-spacing: normal;
+    /* Line Height */
+    --global--line-height-body: 1.7;
+    --global--line-height-heading: 1.3;
+    --global--line-height-page-title: 1.1;
+    /* Headings */
+    --heading--font-family: var(--global--font-primary);
+    --heading--font-size-h6: var(--global--font-size-xs);
+    --heading--font-size-h5: var(--global--font-size-sm);
+    --heading--font-size-h4: var(--global--font-size-lg);
+    --heading--font-size-h3: calc(1.25 * var(--global--font-size-lg));
+    --heading--font-size-h2: var(--global--font-size-xl);
+    --heading--font-size-h1: var(--global--font-size-page-title);
+    --heading--letter-spacing-h6: 0.05em;
+    --heading--letter-spacing-h5: 0.05em;
+    --heading--letter-spacing-h4: var(--global--letter-spacing);
+    --heading--letter-spacing-h3: var(--global--letter-spacing);
+    --heading--letter-spacing-h2: var(--global--letter-spacing);
+    --heading--letter-spacing-h1: var(--global--letter-spacing);
+    --heading--line-height-h6: var(--global--line-height-heading);
+    --heading--line-height-h5: var(--global--line-height-heading);
+    --heading--line-height-h4: var(--global--line-height-heading);
+    --heading--line-height-h3: var(--global--line-height-heading);
+    --heading--line-height-h2: var(--global--line-height-heading);
+    --heading--line-height-h1: var(--global--line-height-page-title);
+    --heading--font-weight: normal;
+    --heading--font-weight-page-title: 300;
+    --heading--font-weight-strong: 600;
+    /* Block: Latest posts */
+    --latest-posts--title-font-family: var(--heading--font-family);
+    --latest-posts--title-font-size: var(--heading--font-size-h3);
+    --latest-posts--description-font-family: var(--global--font-secondary);
+    --latest-posts--description-font-size: var(--global--font-size-sm);
+    --list--font-family: var(--global--font-secondary);
+    --definition-term--font-family: var(--global--font-primary);
+    /* Colors */
+    --global--color-black: #000;
+    --global--color-dark-gray: #28303d;
+    --global--color-gray: #39414d;
+    --global--color-light-gray: #f0f0f0;
+    --global--color-green: #d1e4dd;
+    --global--color-blue: #d1dfe4;
+    --global--color-purple: #d1d1e4;
+    --global--color-red: #e4d1d1;
+    --global--color-orange: #e4dad1;
+    --global--color-yellow: #eeeadd;
+    --global--color-white: #fff;
+    --global--color-white-50: rgba(255, 255, 255, 0.5);
+    --global--color-white-90: rgba(255, 255, 255, 0.9);
+    --global--color-primary: var(--global--color-dark-gray); /* Body text color, site title, footer text color. */
+    --global--color-secondary: var(--global--color-gray); /* Headings */
+    --global--color-primary-hover: var(--global--color-primary);
+    --global--color-background: var(--global--color-white); /* Mint, default body background */
+    --global--color-border: var(--global--color-primary); /* Used for borders (separators) */
+    /* Spacing */
+    --global--spacing-unit: 20px;
+    --global--spacing-measure: unset;
+    --global--spacing-horizontal: 25px;
+    --global--spacing-vertical: 30px;
+    /* Elevation */
+    --global--elevation: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+    /* Forms */
+    --form--font-family: var(--global--font-secondary);
+    --form--font-size: var(--global--font-size-sm);
+    --form--line-height: var(--global--line-height-body);
+    --form--color-text: var(--global--color-dark-gray);
+    --form--color-ranged: var(--global--color-secondary);
+    --form--label-weight: 500;
+    --form--border-color: var(--global--color-secondary);
+    --form--border-width: 1px;
+    --form--border-radius: 0;
+    --form--spacing-unit: calc(0.5 * var(--global--spacing-unit));
+    /* Cover block */
+    --cover--height: calc(15 * var(--global--spacing-vertical));
+    --cover--color-foreground: var(--global--color-white);
+    --cover--color-background: var(--global--color-black);
+    /* Buttons */
+    --button--color-text: var(--global--color-background);
+    --button--color-text-hover: var(--global--color-secondary);
+    --button--color-text-active: var(--global--color-secondary);
+    --button--color-background: var(--global--color-secondary);
+    --button--color-background-active: var(--global--color-background);
+    --button--font-family: var(--global--font-primary);
+    --button--font-size: var(--global--font-size-base);
+    --button--font-weight: 500;
+    --button--line-height: 1.5;
+    --button--border-width: 3px;
+    --button--border-radius: 50px;
+    --button--padding-vertical: 12px;
+    --button--padding-horizontal: calc(2 * var(--button--padding-vertical));
+    /* entry */
+    --entry-header--color: var(--global--color-primary);
+    --entry-header--color-link: currentColor;
+    --entry-header--color-hover: var(--global--color-primary-hover);
+    --entry-header--color-focus: var(--global--color-secondary);
+    --entry-header--font-size: var(--heading--font-size-h2);
+    --entry-content--font-family: var(--global--font-secondary);
+    --entry-author-bio--font-family: var(--heading--font-family);
+    --entry-author-bio--font-size: var(--heading--font-size-h4);
+    /* Header */
+    --branding--color-text: var(--global--color-primary);
+    --branding--color-link: var(--global--color-primary);
+    --branding--color-link-hover: var(--global--color-secondary);
+    --branding--title--font-family: var(--global--font-primary);
+    --branding--title--font-size: var(--global--font-size-lg);
+    --branding--title--font-size-mobile: var(--heading--font-size-h4);
+    --branding--title--font-weight: normal;
+    --branding--title--text-transform: uppercase;
+    --branding--description--font-family: var(--global--font-secondary);
+    --branding--description--font-size: var(--global--font-size-sm);
+    --branding--description--font-family: var(--global--font-secondary);
+    --branding--logo--max-width: 300px;
+    --branding--logo--max-height: 100px;
+    --branding--logo--max-width-mobile: 96px;
+    --branding--logo--max-height-mobile: 96px;
+    /* Main navigation */
+    --primary-nav--font-family: var(--global--font-secondary);
+    --primary-nav--font-family-mobile: var(--global--font-primary);
+    --primary-nav--font-size: var(--global--font-size-md);
+    --primary-nav--font-size-sub-menu: var(--global--font-size-xs);
+    --primary-nav--font-size-mobile: var(--global--font-size-sm);
+    --primary-nav--font-size-sub-menu-mobile: var(--global--font-size-sm);
+    --primary-nav--font-size-button: var(--global--font-size-xs);
+    --primary-nav--font-style: normal;
+    --primary-nav--font-style-sub-menu-mobile: normal;
+    --primary-nav--font-weight: normal;
+    --primary-nav--font-weight-button: 500;
+    --primary-nav--color-link: var(--global--color-primary);
+    --primary-nav--color-link-hover: var(--global--color-primary-hover);
+    --primary-nav--color-text: var(--global--color-primary);
+    --primary-nav--padding: calc(0.66 * var(--global--spacing-unit));
+    --primary-nav--border-color: var(--global--color-primary);
+    /* Pagination */
+    --pagination--color-text: var(--global--color-primary);
+    --pagination--color-link-hover: var(--global--color-primary-hover);
+    --pagination--font-family: var(--global--font-secondary);
+    --pagination--font-size: var(--global--font-size-lg);
+    --pagination--font-weight: normal;
+    --pagination--font-weight-strong: 600;
+    /* Footer */
+    --footer--color-text: var(--global--color-primary);
+    --footer--color-link: var(--global--color-primary);
+    --footer--color-link-hover: var(--global--color-primary-hover);
+    --footer--font-family: var(--global--font-primary);
+    --footer--font-size: var(--global--font-size-sm);
+    /* Block: Pull quote */
+    --pullquote--font-family: var(--global--font-primary);
+    --pullquote--font-size: var(--heading--font-size-h3);
+    --pullquote--font-style: normal;
+    --pullquote--letter-spacing: var(--heading--letter-spacing-h4);
+    --pullquote--line-height: var(--global--line-height-heading);
+    --pullquote--border-width: 3px;
+    --pullquote--border-color: var(--global--color-primary);
+    --pullquote--color-foreground: var(--global--color-primary);
+    --pullquote--color-background: var(--global--color-background);
+    --quote--font-family: var(--global--font-secondary);
+    --quote--font-size: var(--global--font-size-md);
+    --quote--font-size-large: var(--global--font-size-xl);
+    --quote--font-style: normal;
+    --quote--font-weight: 700;
+    --quote--font-weight-strong: bolder;
+    --quote--font-style-large: normal;
+    --quote--font-style-cite: normal;
+    --quote--line-height: var(--global--line-height-body);
+    --quote--line-height-large: 1.35;
+    --separator--border-color: var(--global--color-border);
+    --separator--height: 1px;
+    /* Block: Table */
+    --table--stripes-border-color: var(--global--color-light-gray);
+    --table--stripes-background-color: var(--global--color-light-gray);
+    --table--has-background-text-color: var(--global--color-dark-gray);
+    /* Widgets */
+    --widget--line-height-list: 1.9;
+    --widget--line-height-title: 1.4;
+    --widget--font-weight-title: 700;
+    --widget--spacing-menu: calc(0.66 * var(--global--spacing-unit));
+    /* Admin-bar height */
+    --global--admin-bar--height: 0px;
+  }
+  
+  .admin-bar {
+    --global--admin-bar--height: 32px;
+  }
+  @media only screen and (max-width: 782px) {
+    .admin-bar {
+      --global--admin-bar--height: 46px;
+    }
+  }
+  
+  @media only screen and (min-width: 652px) {
+    :root {
+      --global--font-size-xl: 2.5rem;
+      --global--font-size-xxl: 6rem;
+      --global--font-size-xxxl: 9rem;
+      --heading--font-size-h3: 2rem;
+      --heading--font-size-h2: 3rem;
+    }
+  }
+  /**
+   * Responsive Styles
+   */
+  /**
+   * Required Variables
+   */
+  /* Category 04 can contain any default HTML element. Do not add classes here, just give the elements some basic styles. */
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  input[type=search],
+  input[type=number],
+  input[type=tel],
+  input[type=date],
+  input[type=month],
+  input[type=week],
+  input[type=time],
+  input[type=datetime],
+  input[type=datetime-local],
+  input[type=color],
+  .wp-site-blocks textarea {
+    border: var(--form--border-width) solid var(--form--border-color);
+    border-radius: var(--form--border-radius);
+    color: var(--form--color-text);
+    line-height: var(--global--line-height-body);
+    padding: var(--form--spacing-unit);
+    margin: 0 2px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  input[type=text]:focus,
+  input[type=email]:focus,
+  input[type=url]:focus,
+  input[type=password]:focus,
+  input[type=search]:focus,
+  input[type=number]:focus,
+  input[type=tel]:focus,
+  input[type=date]:focus,
+  input[type=month]:focus,
+  input[type=week]:focus,
+  input[type=time]:focus,
+  input[type=datetime]:focus,
+  input[type=datetime-local]:focus,
+  input[type=color]:focus,
+  .wp-site-blocks textarea:focus {
+    color: var(--form--color-text);
+    outline: 2px solid var(--form--border-color);
+  }
+  input[type=text]:disabled,
+  input[type=email]:disabled,
+  input[type=url]:disabled,
+  input[type=password]:disabled,
+  input[type=search]:disabled,
+  input[type=number]:disabled,
+  input[type=tel]:disabled,
+  input[type=date]:disabled,
+  input[type=month]:disabled,
+  input[type=week]:disabled,
+  input[type=time]:disabled,
+  input[type=datetime]:disabled,
+  input[type=datetime-local]:disabled,
+  input[type=color]:disabled,
+  .wp-site-blocks textarea:disabled {
+    opacity: 0.7;
+  }
+  
+  input[type=search]:focus {
+    outline-offset: -7px;
+  }
+  .is-dark-theme input[type=search]:focus {
+    outline-color: var(--global--color-background);
+  }
+  
+  input[type=color] {
+    padding: calc(var(--form--spacing-unit) / 2);
+    height: calc(4 * var(--form--spacing-unit));
+  }
+  
+  input[type=email],
+  input[type=url] {
+    /*rtl:ignore*/
+    direction: ltr;
+  }
+  
+  select {
+    border: var(--form--border-width) solid var(--wp--preset--color--light-gray);
+    color: var(--form--color-text);
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    line-height: var(--global--line-height-body);
+    padding: var(--form--spacing-unit) calc(3 * var(--form--spacing-unit)) var(--form--spacing-unit) var(--form--spacing-unit);
+    background: var(--global--color-white) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%2328303d'><polygon points='0,0 10,0 5,5'/></svg>") no-repeat;
+    background-position: right var(--form--spacing-unit) top 60%;
+  }
+  select:focus {
+    outline-offset: 0;
+    outline: 2px solid var(--wp--preset--color--orange);
+  }
+  
+  textarea {
+    width: 100%;
+  }
+  
+  label {
+    font-size: var(--form--font-size);
+    font-weight: var(--form--label-weight);
+    margin-bottom: calc(var(--global--spacing-vertical) / 3);
+  }
+  
+  /**
+  https://css-tricks.com/custom-styling-form-inputs-with-modern-css-features/
+  https://codepen.io/aaroniker/pen/ZEYoxEY by Aaron Iker.
+  License: MIT.
+  */
+  @supports (-webkit-appearance: none) or (-moz-appearance: none) {
+    input[type=email],
+  input[type=checkbox],
+  input[type=radio] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+    input[type=checkbox],
+  input[type=radio] {
+      position: relative;
+      width: 25px;
+      height: 25px;
+      border: var(--form--border-width) solid var(--form--border-color);
+      background: var(--global--color-white);
+    }
+    input[type=checkbox]:disabled,
+  input[type=radio]:disabled {
+      opacity: 0.7;
+    }
+    .is-dark-theme input[type=checkbox],
+  .is-dark-theme input[type=radio] {
+      background: var(--global--color-white-90);
+    }
+    input[type=checkbox]:focus {
+      outline: 2px solid var(--form--border-color);
+    }
+    input[type=checkbox]:after {
+      content: "";
+      opacity: 0;
+      display: block;
+      left: 5px;
+      top: 2px;
+      position: absolute;
+      width: 7px;
+      height: 13px;
+      border: 3px solid var(--form--color-text);
+      border-top: 0;
+      border-left: 0;
+      transform: rotate(30deg);
+    }
+    input[type=checkbox]:checked {
+      color: var(--form--color-text);
+    }
+    input[type=checkbox]:checked:after {
+      opacity: 1;
+    }
+    input[type=radio] {
+      border-radius: 50%;
+    }
+    input[type=radio]:focus {
+      outline-offset: 2px;
+      outline: 2px dotted var(--form--border-color);
+    }
+    input[type=radio]:after {
+      content: "";
+      opacity: 0;
+      display: block;
+      left: 3px;
+      top: 3px;
+      position: absolute;
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: var(--form--color-text);
+    }
+    input[type=radio]:checked {
+      border: 4px solid var(--form--border-color);
+    }
+    input[type=radio]:checked:after {
+      opacity: 1;
+    }
+    input[type=radio]:checked:focus {
+      outline-offset: 4px;
+      outline: 2px solid var(--form--border-color);
+    }
+  }
+  input[type=checkbox] + label,
+  input[type=radio] + label {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: var(--global--font-size-xs);
+    vertical-align: top;
+  }
+  
+  /**
+   * https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/
+  */
+  @supports (-webkit-appearance: none) or (-moz-appearance: none) {
+    input[type=range] {
+      -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+      width: 100%; /* Specific width is required for Firefox. */
+      height: 6px;
+      background: var(--form--color-ranged);
+      border-radius: 6px;
+      outline-offset: 10px;
+    }
+    input[type=range]:disabled {
+      opacity: 0.7;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      border: 3px solid var(--form--color-ranged);
+      height: 44px;
+      width: 44px;
+      border-radius: 50%;
+      background: var(--global--color-background);
+      cursor: pointer;
+    }
+    input[type=range]::-moz-range-thumb {
+      border: 3px solid var(--form--color-ranged);
+      height: 44px;
+      width: 44px;
+      border-radius: 50%;
+      background: var(--global--color-background);
+      cursor: pointer;
+      box-sizing: border-box;
+    }
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 6px;
+    border-radius: 6px;
+    border-width: 19px 0;
+    border-color: var(--global--color-background);
+    background: transparent;
+    color: transparent;
+    cursor: pointer;
+  }
+  
+  input[type=range]::-ms-fill-upper {
+    background: var(--form--color-ranged);
+    border-radius: 6px;
+  }
+  
+  input[type=range]::-ms-fill-lower {
+    background: var(--form--color-ranged);
+    border-radius: 6px;
+  }
+  
+  input[type=range]::-ms-thumb {
+    border: 3px solid var(--form--color-ranged);
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background: var(--global--color-background);
+    cursor: pointer;
+  }
+  
+  ::-moz-placeholder {
+    opacity: 1;
+  }
+  
+  a:hover,
+  a:focus {
+    text-decoration-style: initial;
+  }
+  
+  /* Category 05 is all about adjusting the default block styles to the given layout. I only added three blocks as examples. */
+  /**
+   * Accordion
+   */
+  /* Accordion */
+  .accordion-section {
+    border-bottom: 1px solid #dcdcde;
+    margin: 1em 0 0 0;
+  }
+  
+  .accordion-section.open .accordion-section-content,
+  .no-js .accordion-section .accordion-section-content {
+    display: block;
+  }
+  
+  .accordion-section.open:hover {
+    border-bottom-color: #dcdcde;
+  }
+  
+  .accordion-section-content {
+    display: none;
+    padding: 10px 20px 15px;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  .accordion-section-title {
+    margin: 0;
+    padding: 12px 15px 15px;
+    position: relative;
+    border-left: 1px solid #dcdcde;
+    border-right: 1px solid #dcdcde;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: var(--wp--preset--color--white);
+  }
+  
+  .js .accordion-section-title {
+    cursor: pointer;
+  }
+  
+  .js .accordion-section-title:after {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    z-index: 1;
+  }
+  
+  .accordion-section-title:focus {
+    /* Only visible in Windows High Contrast mode */
+    outline: 1px solid transparent;
+  }
+  
+  .accordion-section-title:hover:after,
+  .accordion-section-title:focus:after {
+    border-color: #a7aaad transparent;
+    /* Only visible in Windows High Contrast mode */
+    outline: 1px solid transparent;
+  }
+  
+  .cannot-expand .accordion-section-title {
+    cursor: auto;
+  }
+  
+  .cannot-expand .accordion-section-title:after {
+    display: none;
+  }
+  
+  .control-section .accordion-section-title,
+  .customize-pane-child .accordion-section-title {
+    border-left: none;
+    border-right: none;
+    padding: 10px 10px 11px 14px;
+    line-height: 1.55;
+    background: #fff;
+  }
+  
+  .control-section .accordion-section-title:after,
+  .customize-pane-child .accordion-section-title:after {
+    top: calc(50% - 10px); /* Arrow height is 20px, so use half of that to vertically center */
+  }
+  
+  .js .control-section:hover .accordion-section-title,
+  .js .control-section .accordion-section-title:hover,
+  .js .control-section.open .accordion-section-title,
+  .js .control-section .accordion-section-title:focus {
+    color: #1d2327;
+    background: #f6f7f7;
+  }
+  
+  .control-section.open .accordion-section-title {
+    /* When expanded */
+    border-bottom: 1px solid #dcdcde;
+  }
+  
+  /**
+   * Button
+   */
+  input[type=submit],
+  input[type=reset] {
+    border: var(--button--border-width) solid transparent;
+    border-radius: var(--button--border-radius);
+    cursor: pointer;
+    font-weight: var(--button--font-weight);
+    font-family: var(--button--font-family);
+    font-size: var(--button--font-size);
+    line-height: var(--button--line-height);
+    padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+    text-decoration: none;
+  }
+  input[type=submit]:not(:hover):not(:active):not(.has-text-color),
+  input[type=reset]:not(:hover):not(:active):not(.has-text-color) {
+    color: var(--global--color-background);
+  }
+  .has-background input[type=submit]:not(:hover):not(:active):not(.has-text-color),
+  .has-background input[type=reset]:not(:hover):not(:active):not(.has-text-color) {
+    color: var(--local--color-background, var(--global--color-primary));
+  }
+  .has-background input[type=submit]:not(:hover):not(:active):not(.has-text-color).has-background,
+  .has-background input[type=reset]:not(:hover):not(:active):not(.has-text-color).has-background {
+    color: var(--global--color-primary);
+  }
+  input[type=submit]:not(:hover):not(:active):not(.has-background),
+  input[type=reset]:not(:hover):not(:active):not(.has-background) {
+    background-color: var(--global--color-primary);
+  }
+  .has-background input[type=submit]:not(:hover):not(:active):not(.has-background),
+  .has-background input[type=reset]:not(:hover):not(:active):not(.has-background) {
+    background-color: var(--local--color-primary, var(--global--color-primary));
+  }
+  input[type=submit]:hover, input[type=submit]:active,
+  input[type=reset]:hover,
+  input[type=reset]:active {
+    background-color: transparent;
+    border-color: currentColor;
+    color: inherit;
+  }
+  input[type=submit]:focus,
+  input[type=reset]:focus {
+    outline-offset: -6px;
+    outline: 2px dotted currentColor;
+  }
+  input[type=submit]:disabled,
+  input[type=reset]:disabled {
+    background-color: var(--global--color-white-50);
+    border-color: var(--global--color-white-50);
+    color: var(--button--color-text-active);
+  }
+  
+  button {
+    border-width: 0;
+  }
+  
+  .wp-block-site-title {
+    text-shadow: 1px 1px 0px var(--wp--preset--color--blue);
+  }
+  .wp-block-site-title a {
+    text-decoration: unset;
+  }
+  
+  /* Block Alignments */
+  .is-style-inline {
+    display: inline-flex !important;
+  }
+  .is-style-inline-right {
+    float: right;
+    clear: both;
+  }
+  
+  .desktop-only {
+    display: none !important;
+  }
+  @media only screen and (min-width: 482px) {
+    .desktop-only {
+      display: block !important;
+    }
+  }
+  
+  /* Category 06 contains all "bigger" components which contain elements of the previous two categories like header, footer, page template, single template, comments section, archives, ... */
+  .site-header {
+    position: relative;
+    z-index: 2;
+  }
+  
+  @media only screen and (min-width: 482px) {
+    .site-footer .wp-block-navigation__container {
+      flex-direction: row;
+    }
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
