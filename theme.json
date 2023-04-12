@@ -1,0 +1,336 @@
+{
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+	"settings": {
+    "color": {
+			"duotone": [
+				{
+					"colors": [ "#3626a7", "#fae8e8" ],
+					"slug": "blue-and-lavender",
+					"name": "Blue and Lavender"
+				},
+				{
+					"colors": [ "#ffffff", "#fae8e8" ],
+					"slug": "white-and-lavender",
+					"name": "White and Lavender"
+				}
+			],
+			"palette": [
+				{
+            "slug": "dark-gray",
+            "color": "#0d0106",
+            "name": "Dark gray"
+        },
+        {
+            "slug": "gray",
+            "color": "#39414d",
+            "name": "Gray"
+        },
+        {
+            "slug": "light-gray",
+            "color": "#f0f0f0",
+            "name": "Light Gray"
+        },
+        {
+            "slug": "green",
+            "color": "#60992d",
+            "name": "Green"
+        },
+        {
+            "slug": "blue",
+            "color": "#3626a7",
+            "name": "Blue"
+        },
+        {
+            "slug": "pink",
+            "color": "#db5aba",
+            "name": "Pink"
+        },
+        {
+            "slug": "red",
+            "color": "#f02d3a",
+            "name": "Red"
+        },
+        {
+            "slug": "orange",
+            "color": "#ff6700",
+            "name": "Orange"
+        },
+        {
+            "slug": "lavender",
+            "color": "#fae8e8",
+            "name": "Lavender"
+        }
+			]
+        },
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Lato",
+					"slug": "lato",
+					"fontFace": [
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/lato_normal_100.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/lato_italic_100.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/lato_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/lato_italic_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/lato_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/lato_italic_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/lato_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/lato_italic_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/lato_normal_900.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/lato_italic_900.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Open Sans",
+					"slug": "open-sans",
+					"fontFace": [
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_800.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/open-sans_italic_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/open-sans_italic_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/open-sans_italic_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/open-sans_italic_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/open-sans_italic_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/open-sans_italic_800.ttf"
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+  "styles": {
+
+		"color": {
+			"background": "var(--wp--preset--color--white)",
+			"text": "var(--wp--preset--color--gray)"
+		},
+    "elements": {
+      "button": {
+        "color": {
+					"background": "var(--wp--preset--color--orange)",
+					"text": "var(--wp--preset--color--white)"
+				},
+        "typography": {
+					"fontWeight": "500"
+        },
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--white)",
+            "gradient": "var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange)"
+					}
+				},
+				":focus": {
+					"color": {
+            "gradient": "var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange)",
+						"text": "var(--wp--preset--color--white)"
+					}
+				},
+				":active": {
+					"color": {
+            "gradient": "var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange)",
+						"text": "var(--wp--preset--color--white)"
+					}
+				},
+				":visited": {
+					"color": {
+						"text": "var(--wp--preset--color--white)"
+					}
+				}
+			},
+			"heading": {
+				"color": {
+          "text": "var(--wp--preset--color--blue)"
+				}
+			},
+      "link": {
+				"color": {
+					"text": "var(--wp--preset--color--orange)"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				":focus": {
+					"typography": {
+						"textDecoration": "underline dashed"
+					}
+				},
+				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--secondary)"
+					},
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				"typography": {
+					"textDecoration": "underline"
+				}
+			}
+    },
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--open-sans)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"lineHeight": "1.6"
+		}
+	}
+}
