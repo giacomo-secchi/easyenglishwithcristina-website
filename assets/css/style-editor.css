@@ -1,0 +1,10 @@
+.site-header {
+	position: relative;
+	z-index: 2;
+}
+
+@media only screen and (min-width: 482px) {
+	.site-footer .wp-block-navigation__container {
+		flex-direction: row;
+	}
+}

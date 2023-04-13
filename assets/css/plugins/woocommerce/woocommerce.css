@@ -7,17 +7,7 @@
   padding: 0.5em;
 }
 
-.woocommerce a.button,
-.woocommerce button[name=add-to-cart],
-.woocommerce input[name=submit],
-.woocommerce button.single_add_to_cart_button,
-.woocommerce button[type=submit]:not(.wp-block-search__button) {
-  background-color: var(--wp--preset--color--orange);
-  border: 0;
-  border-radius: 100px;
-  font-size: var(--wp--preset--font-size--medium);
-  padding: calc(0.667em + 2px) calc(1.333em + 2px);
-}
+
 .woocommerce .related {
   margin-top: 0 !important;
 }
@@ -45,9 +35,6 @@
   margin-top: 0;
 }
 
-.woocommerce-page main .woocommerce {
-  max-width: 1100px;
-}
 
 /**
  * Single Product Form fields

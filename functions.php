@@ -23,10 +23,11 @@ if ( ! function_exists( 'eewc_scripts' ) ) :
 		$version_string = is_string( $theme_version ) ? $theme_version : false;
 		wp_register_style(
 			'eewc-style',
-			get_stylesheet_directory_uri() . '/style.css',
-			array( 'twentytwentytwo-style' ),
+			get_stylesheet_directory_uri() . '/assets/css/style-editor.css',
+			array(),
 			$version_string
 		);
+
 
 		wp_register_style(
 			'eewc-woocommerce',
@@ -76,22 +77,6 @@ if ( ! function_exists( 'eewc_scripts' ) ) :
 		// Enqueue Jetpack Mailchimp block
 		wp_enqueue_style( array ('eewc-jetpack-block-slideshow' ) );
 
-
-		wp_enqueue_script(
-			'eewc-accordion',
-			get_stylesheet_directory_uri() . '/assets/js/accordion.js',
-			array( 'jquery' ),
-			$version_string
-		);
-
-		// Enqueue Font Awesome Kit Setup
-		wp_enqueue_script(
-			'eewc-font-awesome-kit',
-			get_stylesheet_directory_uri() . '/assets/js/10f5ff4207.js',
-			array(),
-			null
-		);
-
 	}
 
 endif;
@@ -113,9 +98,12 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 		// Add support for block styles.
 		add_theme_support( 'wp-block-styles' );
 
-		// Enqueue editor styles.
-		// add_editor_style( 'style.css' );
+		$editor_stylesheet_path = './assets/css/style-editor.css';
 
+		// Enqueue editor styles.
+		add_editor_style( $editor_stylesheet_path );
+		
+		 remove_theme_support( 'wc-product-gallery-zoom' );
 	}
 
 endif;
