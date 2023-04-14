@@ -207,7 +207,9 @@ body {
   <div class="layer"></div>
 </div>
 
-<?php if( get_query_var( 'show-wheel' ) ): ?>
+<?php
+// Display or hide wheel based on show-wheel parameter
+if( get_query_var( 'show-wheel' ) ): ?>
 <iframe src="https://pickerwheel.com/emb/?choices=A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z&mute=false" width="100%" height="550px" scrolling="no" frameborder="0"></iframe>
 <?php endif; ?>
   <div id="primary" class="content-area">

@@ -102,10 +102,10 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 		// Enqueue editor styles.
 		add_editor_style( $editor_stylesheet_path );
-		
-		 remove_theme_support( 'wc-product-gallery-zoom' );
+
 	}
 
 endif;
 
 add_action( 'after_setup_theme', 'twentytwentytwo_support' );
+
