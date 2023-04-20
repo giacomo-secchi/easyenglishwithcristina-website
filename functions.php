@@ -27,6 +27,13 @@ if ( ! function_exists( 'eewc_scripts' ) ) :
 			$version_string
 		);
 
+		wp_register_style(
+			'eewc-woocommerce',
+			get_stylesheet_directory_uri() . '/assets/css/plugins/woocommerce/woocommerce.css',
+			array( 'woocommerce-general' ),
+			$version_string
+		);
+
 		// Enqueue theme stylesheet.
 		wp_enqueue_style( 'twentytwentytwo-style' );
 

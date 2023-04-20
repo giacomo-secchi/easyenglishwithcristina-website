@@ -1,6 +1,7 @@
 .wp-block-site-title {
-    text-shadow: 1px 1px 0px var(--wp--preset--color--blue);
-  }
+    text-shadow: var(--wp--preset--shadow--natural);
+}
+
 .wp-block-site-title a {
 	text-decoration: unset;
 }

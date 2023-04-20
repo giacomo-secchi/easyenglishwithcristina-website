@@ -9,8 +9,8 @@
 
 
 
-<!-- wp:group {"backgroundColor":"light-gray","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-light-gray-background-color has-background">
+<!-- wp:group {"backgroundColor":"light-gray","layout":{"type":"constrained"},"fontSize":"tiny"} -->
+<div class="wp-block-group has-light-gray-background-color has-background has-tiny-font-size">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-group alignwide">
 
