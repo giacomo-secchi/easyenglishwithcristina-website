@@ -3,6 +3,10 @@
 	z-index: 2;
 }
 
+.main-menu .wp-block-navigation__responsive-container-open svg {
+	transform: scale(1.5, 1 );
+}
+
 @media only screen and (min-width: 482px) {
 	.site-footer .wp-block-navigation__container {
 		flex-direction: row;

@@ -1,0 +1,26 @@
+.wp-block-jetpack-mailchimp form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wp-block-jetpack-mailchimp .wp-block-jetpack-button {
+	flex: 1 1 36%;
+	margin-bottom: 0;
+}
+
+.wp-block-jetpack-mailchimp p:first-of-type {
+    flex: 1 1 64%;
+	margin: 0;
+}
+
+.wp-block-jetpack-mailchimp #wp-block-jetpack-mailchimp_consent-text {
+	font-size: var(--wp--preset--font-size--tiny);
+}
+
+.wp-block-jetpack-mailchimp input[type=email] {
+	height: 100%;
+}
+
+.wp-block-jetpack-mailchimp .wp-block-button__link {
+	width: 100%;
+}

@@ -63,6 +63,15 @@
         }
 			]
         },
+        "spacing": {
+          "spacingScale": {
+             "operator": "*",
+             "increment": 2,
+             "steps": 10,
+             "mediumStep": 1.5,
+             "unit": "rem"
+               }
+            },
 		"typography": {
 			"fontFamilies": [
 				{
@@ -253,6 +262,53 @@
 						}
 					]
 				}
+			],
+      "fontSizes": [
+        {
+					"fluid": {
+						"min": "0.675rem",
+						"max": "0.8rem"
+					},
+					"size": "0.8rem",
+					"slug": "tiny"
+				},
+				{
+					"fluid": {
+						"min": "0.875rem",
+						"max": "1rem"
+					},
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"min": "1rem",
+						"max": "1.125rem"
+					},
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"min": "1.75rem",
+						"max": "1.875rem"
+					},
+					"size": "1.75rem",
+					"slug": "large"
+				},
+				{
+					"fluid": false,
+					"size": "2.25rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"min": "4rem",
+						"max": "10rem"
+					},
+					"size": "10rem",
+					"slug": "xx-large"
+				}
 			]
 		}
 	},
@@ -385,7 +441,6 @@
 			}
     },
     "spacing": {
-			"blockGap": "0",
       "padding": {
         "top": "0",
         "right": "var(--wp--preset--spacing--40)",
