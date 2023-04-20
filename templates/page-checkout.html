@@ -1,19 +1,15 @@
-<!-- wp:template-part {"slug":"header-checkout","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"header-bare","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"main"} -->
-<main class="wp-block-group"><!-- wp:group {"layout":{"inherit":true}} -->
-<div class="wp-block-group"><!-- wp:post-title {"level":1,"align":"wide"} /-->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50)">
+	<!-- wp:group {"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group">
+		<!-- wp:post-featured-image {"overlayColor":"contrast","dimRatio":50,"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50","top":"calc(-1 * var(--wp--preset--spacing--50))"}}}} /-->
+		<!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} /-->
+	</div>
+	<!-- /wp:group -->
 
-<!-- wp:post-featured-image {"align":"wide","style":{"spacing":{"margin":{"bottom":"var(--wp--custom--spacing--medium, 6rem)"}}}} /-->
-
-</div>
-<!-- /wp:group -->
-
-
-
-<!-- wp:post-content {"layout":{"inherit":true}} /-->
-
-<!-- wp:woocommerce/checkout {"allowCreateAccount":true,"showApartmentField":false, "requirePhoneField":true} -->
+	<!-- wp:woocommerce/checkout {"allowCreateAccount":true,"showApartmentField":false, "requirePhoneField":true} -->
 <div class="wp-block-woocommerce-checkout wc-block-checkout is-loading"><!-- wp:woocommerce/checkout-fields-block -->
     <div class="wp-block-woocommerce-checkout-fields-block"><!-- wp:woocommerce/checkout-express-payment-block -->
     <div class="wp-block-woocommerce-checkout-express-payment-block"></div>
@@ -78,6 +74,8 @@
     <!-- /wp:woocommerce/checkout-totals-block --></div>
     <!-- /wp:woocommerce/checkout -->
 
+	<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+	<!-- wp:template-part {"slug":"comments","tagName":"section"} /-->
 </main>
 <!-- /wp:group -->
 

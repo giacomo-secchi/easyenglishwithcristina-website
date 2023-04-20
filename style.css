@@ -26,11 +26,4 @@ Tags: blog, news, portfolio, one-column, wide-blocks, accessibility-ready, block
     clear: both;
   }
 
-  .desktop-only {
-    display: none !important;
-  }
-  @media only screen and (min-width: 482px) {
-    .desktop-only {
-      display: block !important;
-    }
-  }
+
