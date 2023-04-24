@@ -32,7 +32,6 @@ if ( ! function_exists( 'eewc_scripts' ) ) :
 			$version_string
 		);
 
-		var_dump($version_string);
 		// Enqueue WooCommerce Styles.
 		if ( class_exists( 'woocommerce' ) ) {
 			wp_enqueue_style( 'eewc-woocommerce' );
