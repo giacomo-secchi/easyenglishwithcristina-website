@@ -27,10 +27,15 @@
 
 
 .woocommerce div.product form.cart div.quantity .qty {
-	text-align: center;
 	margin-right: 0;
 	width: 9em;
 }
+
+.woocommerce .quantity input[type="number"] {
+	text-align: center;
+
+}
+
 .woocommerce div.product table.variations .label {
   display: inline-block;
 }
@@ -43,4 +48,6 @@
 	display: block;
 }
 
-
+.wc-block-components-order-summary-item__description .wc-block-components-product-metadata .wc-block-components-product-metadata .wc-block-components-product-metadata__description {
+    display: none;
+}

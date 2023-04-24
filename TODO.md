@@ -2,7 +2,7 @@ banner cookie remove on checkout
 blog (width column e quote styles) block quotes also in about me page
 Check wheel of fortune  and get parameters
 check email order hook
-Contact form in home, about me page, blog page
+Contact form in blog page
 create an account giacomo.secchi -> html5publishing@gmail.com
 create an account cristina.fara-> info@easyenglishwithcrisitna.com
 set administator mail as wordpress@easyenglishwithcristina.com
