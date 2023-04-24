@@ -1,3 +1,12 @@
+GA4
+console google
+free insead of zero for product bundle
+slider bugs
+header width
+aggiornare prezzi corso wa
+Ripristinare /shop con dentro tutti i prodotti
+filtro /all-courses per solo i prodotti di tipo corso
+filtro on line courses (fare un test con sensei per vedere che non vadano in conflitto)
 banner cookie remove on checkout
 blog (width column e quote styles) block quotes also in about me page
 Check wheel of fortune  and get parameters
