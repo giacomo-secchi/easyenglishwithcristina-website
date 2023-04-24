@@ -6,6 +6,11 @@
  */
 
 
+/**
+ * Get theme version.
+ */
+$theme_version  = wp_get_theme( get_stylesheet() )->get( 'Version' );
+$version_string = is_string( $theme_version ) ? $theme_version : false;
 
 if ( ! function_exists( 'eewc_scripts' ) ) :
 
@@ -17,16 +22,7 @@ if ( ! function_exists( 'eewc_scripts' ) ) :
 	 * @return void
 	 */
 	function eewc_scripts() {
-		// Register theme stylesheet.
-		$theme_version = wp_get_theme( get_stylesheet() )->get( 'Version' );
-		$version_string = is_string( $theme_version ) ? $theme_version : false;
-		wp_register_style(
-			'twentytwentytwo-style',
-			get_stylesheet_directory_uri() . '/style.css',
-			array(),
-			$version_string
-		);
-
+		// Register WooCommerce stylesheet.
 		wp_register_style(
 			'eewc-woocommerce',
 			get_stylesheet_directory_uri() . '/assets/css/plugins/woocommerce/woocommerce.css',
@@ -34,19 +30,53 @@ if ( ! function_exists( 'eewc_scripts' ) ) :
 			$version_string
 		);
 
-		// Enqueue theme stylesheet.
-		wp_enqueue_style( 'twentytwentytwo-style' );
-
-
-		// Enqueue WooCommerce Styles
-		wp_enqueue_style( 'eewc-woocommerce' );
-
+		// Enqueue WooCommerce Styles.
+		if ( class_exists( 'woocommerce' ) ) {
+			wp_enqueue_style( 'eewc-woocommerce' );
+		}
 
 	}
 
 endif;
 
 add_action( 'wp_enqueue_scripts', 'eewc_scripts' );
+
+/**
+ * Register block styles.
+ *
+ * @since 0.9.2
+ */
+function eewc_register_block_styles() {
+
+    $block_styles = array(
+        'core/group' => array(
+            'inline' => __( 'Inline', 'easyenglishwithcristinatheme' ),
+			'inline_style' => '.wp-block-group .is-style-inline { display: inline-flex; }'
+        )
+    );
+
+
+
+	if ( function_exists( 'register_block_style' ) ) {
+	    foreach ( $block_styles as $block => $styles ) {
+			foreach ( $styles as $style_name => $style_label ) {
+
+				$inline_style = isset( $styles['inline_style'] ) ? $styles['inline_style'] : '';
+
+				register_block_style(
+					$block,
+					array(
+						'name'  => $style_name,
+						'label' => $style_label,
+						'inline_style'	=> $inline_style
+					)
+				);
+			}
+		}
+	}
+}
+add_action( 'init', 'eewc_register_block_styles' );
+
 
 
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
@@ -62,9 +92,6 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 		// Add support for block styles.
 		add_theme_support( 'wp-block-styles' );
-
-		// Enqueue editor styles.
-		add_editor_style( 'style.css' );
 
 		// Add blocks styles.
 		$blocks = array(

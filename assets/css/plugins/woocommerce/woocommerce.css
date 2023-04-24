@@ -11,6 +11,26 @@
   padding-top: var(--wp--preset--spacing--40);
 }
 
+.woocommerce div.product form.cart div.quantity {
+	position: relative;
+}
+
+.woocommerce div.product form.cart div.quantity .quantity__button {
+	position: absolute;
+	background-color: unset;
+	color: var(--wp--preset--color--luminous-vivid-orange)
+}
+
+.woocommerce div.product form.cart div.quantity .quantity__plus {
+	right: 0;
+}
+
+
+.woocommerce div.product form.cart div.quantity .qty {
+	text-align: center;
+	margin-right: 0;
+	width: 9em;
+}
 .woocommerce div.product table.variations .label {
   display: inline-block;
 }
@@ -22,4 +42,5 @@
 .single-product h2 {
 	display: block;
 }
- 
+
+

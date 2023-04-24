@@ -25,11 +25,11 @@
 }
 .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-prev,
 .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-next {
-  border-radius: 100%;
-  background-color: var(--wp--preset--color--orange);
+	background-color: transparent;
+    background-size: 60px;
 }
-.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets {
-  display: none;
+.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-custom {
+	justify-content: center;
 }
 
 /*# sourceMappingURL=slideshow.css.map */
