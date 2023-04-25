@@ -18,7 +18,7 @@
 			<!-- wp:site-title {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|pink"}}}}} /-->
 
 			<!-- wp:paragraph -->
-			<p>English is a global language. Imagine if you were a fluent speaker. You could make more money and become more successful in your work, study and life. So start learning today!</p>
+			<p>English is a global language. Imagine if you were a fluent speaker, you could make more money and become more successful in your work, study and life. So start learning today!</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
