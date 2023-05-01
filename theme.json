@@ -443,9 +443,9 @@
     "spacing": {
       "padding": {
         "top": "0",
-        "right": "var(--wp--preset--spacing--40)",
+        "right": "0",
         "bottom": "0",
-        "left": "var(--wp--preset--spacing--40)"
+        "left": "0"
       }
 		},
 		"typography": {
