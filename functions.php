@@ -50,30 +50,20 @@ add_action( 'wp_enqueue_scripts', 'eewc_scripts' );
  */
 function eewc_register_block_styles() {
 
+	// Define block styles with their labels and CSS styles
     $block_styles = array(
-        'core/group' => array(
-            'inline' => __( 'Inline', 'easyenglishwithcristinatheme' ),
-			'inline_style' => '.wp-block-group .is-style-inline { display: inline-flex; }'
+        'core/group'	=> array(
+            'name'			=> 'inline',
+			'label'			=> __( 'Inline', 'easyenglishwithcristinatheme' ),
+			// 'is_default'	=> true,
+			'inline_style'	=> '.wp-block-group .is-style-inline { display: inline-flex; }'
         )
     );
 
-
-
+	// Register each block style with its label and CSS style
 	if ( function_exists( 'register_block_style' ) ) {
-	    foreach ( $block_styles as $block => $styles ) {
-			foreach ( $styles as $style_name => $style_label ) {
-
-				$inline_style = isset( $styles['inline_style'] ) ? $styles['inline_style'] : '';
-
-				register_block_style(
-					$block,
-					array(
-						'name'  => $style_name,
-						'label' => $style_label,
-						'inline_style'	=> $inline_style
-					)
-				);
-			}
+	    foreach ( $block_styles as $block_name => $style_properties ) {
+		 	register_block_style( $block_name, $style_properties );
 		}
 	}
 }
