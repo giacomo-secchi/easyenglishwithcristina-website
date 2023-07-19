@@ -439,14 +439,6 @@
 				}
 			}
     },
-    "spacing": {
-      "padding": {
-        "top": "0",
-        "right": "0",
-        "bottom": "0",
-        "left": "0"
-      }
-		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--open-sans)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
