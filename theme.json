@@ -374,6 +374,7 @@
 		"background": "var(--wp--preset--color--white)",
 		"text": "var(--wp--preset--color--gray)"
 	},
+	"css": ".wp-site-blocks {\n  padding-top: 0; padding-bottom: 0;\n}",
     "elements": {
       "button": {
         "color": {
