@@ -1,16 +1,19 @@
 <?php
 /**
- * functions.php
+ * Twenties Child Theme
  *
- * Child theme functions.
+ * @package Twenty_Twenty_Child
  */
-
 
 /**
  * Get theme version.
  */
 $theme_version  = wp_get_theme( get_stylesheet() )->get( 'Version' );
 $version_string = is_string( $theme_version ) ? $theme_version : false;
+
+
+
+
 
 if ( ! function_exists( 'eewc_scripts' ) ) :
 
@@ -81,6 +84,7 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 	 * @return void
 	 */
 	function twentytwentytwo_support() {
+		global $version_string;
 
 		// Add support for block styles.
 		add_theme_support( 'wp-block-styles' );
@@ -93,6 +97,7 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 				'args'	=> array(
 					'handle'	=> 'eewc-mailchimp',
 					'src'		=> get_theme_file_uri( 'assets/blocks/mailchimp.css' ),
+					'ver'		=> $version_string
 				)
 			),
 			array(
@@ -102,6 +107,7 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 					'src'		=> get_theme_file_uri( 'assets/blocks/site-title.css' ),
 					// Add "path" to allow inlining asset if the theme opts-in.
 					'path'		=> get_theme_file_path( 'assets/blocks/site-title.css' ),
+					'ver'		=> $version_string
 				)
 			),
 			array(
@@ -109,6 +115,7 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 				'args'	=> array(
 					'handle'	=> 'eewc-reading-time',
 					'src'		=> get_theme_file_uri( 'assets/blocks/reading-time.css' ),
+					'ver'		=> $version_string
 				)
 			),
 			array(
@@ -116,14 +123,16 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 				'args'	=> array(
 					'handle'	=> 'eewc-slideshow',
 					'src'		=> get_theme_file_uri( 'assets/blocks/slideshow.css' ),
+					'ver'		=> $version_string
 				)
-				),
+			),
 			array(
 				'name'	=> 'core/navigation',
 				'args'	=> array(
 					'handle'	=> 'eewc-navigation',
 					'src'		=> get_theme_file_uri( 'assets/blocks/navigation.css' ),
 					'path'		=> get_theme_file_path( 'assets/blocks/navigation.css' ),
+					'ver'		=> $version_string
 				)
 			)
 		);

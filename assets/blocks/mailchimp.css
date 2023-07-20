@@ -25,7 +25,15 @@
 }
 
 .wp-block-jetpack-mailchimp input[type=email] {
-	height: 100%;
+
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+	height: 55px;
+	padding: 16px;
+	border-radius: 0;
+	border: 1px solid var(--wp--preset--color--black);
 }
 
 
