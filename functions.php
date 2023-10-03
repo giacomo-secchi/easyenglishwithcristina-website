@@ -11,11 +11,7 @@
 $theme_version  = wp_get_theme( get_stylesheet() )->get( 'Version' );
 $version_string = is_string( $theme_version ) ? $theme_version : false;
 
-
-
-
-
-if ( ! function_exists( 'eewc_scripts' ) ) :
+ if ( ! function_exists( 'eewc_scripts' ) ) :
 
 	/**
 	 * Enqueue styles.

@@ -8,14 +8,14 @@
 ?>
 
 
-<!-- wp:group {"backgroundColor":"lavender","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-lavender-background-color has-background">
+<!-- wp:group {"backgroundColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-base-background-color has-background">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 		<!-- wp:columns -->
 		<div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->
 		<div class="wp-block-column" style="flex-basis:33.33%">
-			<!-- wp:site-title {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|pink"}}}}} /-->
+			<!-- wp:site-title {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}}}} /-->
 
 			<!-- wp:paragraph -->
 			<p>English is a global language. Imagine if you were a fluent speaker, you could make more money and become more successful in your work, study and life. So start learning today!</p>

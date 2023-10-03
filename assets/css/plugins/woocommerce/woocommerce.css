@@ -1,5 +1,5 @@
 .woocommerce-store-notice {
-  background-color: var(--wp--preset--color--orange);
+  background-color: var(--wp--preset--color--luminous-vivid-orange);
   color: var(--wp--preset--color--white);
   position: absolute;
   top: 0;
@@ -41,7 +41,7 @@
 }
 
 .woocommerce .related .woocommerce-loop-product__title {
-	color: var(--wp--preset--color--blue) !important;
+	color: var(--wp--preset--color--primary) !important;
 }
 
 .single-product h2 {
