@@ -126,108 +126,6 @@
 							]
 						}
 					]
-				},
-				{
-					"fontFamily": "Open Sans",
-					"slug": "open-sans",
-					"fontFace": [
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/open-sans_normal_300.ttf"
-							]
-						},
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/open-sans_normal_400.ttf"
-							]
-						},
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/open-sans_normal_500.ttf"
-							]
-						},
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/open-sans_normal_600.ttf"
-							]
-						},
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/open-sans_normal_700.ttf"
-							]
-						},
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/open-sans_normal_800.ttf"
-							]
-						},
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "italic",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/open-sans_italic_300.ttf"
-							]
-						},
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/open-sans_italic_400.ttf"
-							]
-						},
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "italic",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/open-sans_italic_500.ttf"
-							]
-						},
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "italic",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/open-sans_italic_600.ttf"
-							]
-						},
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/open-sans_italic_700.ttf"
-							]
-						},
-						{
-							"fontFamily": "Open Sans",
-							"fontStyle": "italic",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/open-sans_italic_800.ttf"
-							]
-						}
-					]
 				}
 			]
 		}
@@ -237,27 +135,19 @@
 			"core/pullquote": {
 				"elements": {
 					"cite": {
-						
 						"typography": {
-							"fontFamily": "var(--wp--preset--font-family--open-sans)",
 							"fontWeight": "500"
 						}
-						
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--lato)",
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontWeight": "600"
 				}
 			},
 			"core/quote": {			
 				"border": {
-					"width": "0 0 0 12px"
-				},
-				"color": {
-					"background": "var(--wp--preset--color--base)",
-					"text": "var(--wp--preset--color--blue)"				
+					"width": "0 0 0 8px"
 				},
 				"spacing": {
 					"padding": {
@@ -275,7 +165,7 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontWeight": "400",
+					"fontWeight": "100",
 					"textTransform": "uppercase",
 					"fontStyle": "normal",
 					"fontSize": "var(--wp--preset--font-size--x-large)"
@@ -306,12 +196,17 @@
 					}
 				}
 			},
+			"h5": {
+				"typography": {
+					"fontWeight": "300"
+				}
+			},
 			"heading": {
 				"color": {
-					"text": "var(--wp--preset--color--base)"
+					"text": "var(--wp--preset--color--contrast)"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--lato)"
+					"fontWeight": "400"
 				}
 			},
 			"link": {
@@ -321,11 +216,6 @@
 				":hover": {
 					"typography": {
 						"textDecoration": "none"
-					}
-				},
-				":focus": {
-					"typography": {
-						"textDecoration": "underline dashed"
 					}
 				},
 				":active": {
@@ -342,13 +232,16 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "var(--wp--preset--spacing--50)",
+			"blockGap": "var(--wp--preset--spacing--70)",
 			"padding": {
 				"top": "0",
-				"right": "var(--wp--preset--spacing--60)",
+				"right": "var(--wp--preset--spacing--40)",
 				"bottom": "0",
-				"left": "var(--wp--preset--spacing--60)"
+				"left": "var(--wp--preset--spacing--40)"
 			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--lato)"
 		}
 	}
 }

@@ -1,7 +1,3 @@
-.wp-block-site-title {
-    text-shadow: var(--wp--preset--shadow--natural);
-}
-
 .wp-block-site-title a {
 	text-decoration: unset;
 }
