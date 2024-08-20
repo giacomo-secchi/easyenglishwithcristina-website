@@ -1,0 +1,9 @@
+[data-no-translation] {
+    display: flex;
+    list-style-type: none;
+ }
+ 
+ [data-no-translation] li + li {
+    margin-left: var(--wp--preset--spacing--40);
+ }
+

@@ -38,7 +38,19 @@
 				}
 			]
 		},
-		
+		"custom": {
+			"formInput": {
+				"color": "var(--wp--preset--color--base)",
+				"background": "var(--wp--preset--color--white)",
+				"borderColor": "var(--wp--preset--color--base)"
+			},
+			"jetpackTestimonial": {
+				"borderRadius": "0px",
+				"tileBorderRadius": "20px",
+				"tileBackground": "var(--wp--preset--color--white)",
+				"width": "var(--wp--style--global--wide-size)"
+			}
+		},
 		"typography": {
 			"fontFamilies": [
 				{
@@ -126,6 +138,47 @@
 							]
 						}
 					]
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Tiny",
+					"slug": "tiny",
+					"size": "0.75rem"
+				},
+				{
+					"name": "Small",
+					"slug": "small",
+					"size": "0.8rem"
+				},
+				{
+					"name": "Medium",
+					"slug": "medium",
+					"size": "1rem"
+				},
+				{
+					"name": "Display",
+					"slug": "display",
+					"size": "1.2rem"
+				},
+				{
+					"fluid": {
+						"min": "1.75rem",
+						"max": "1.875rem"
+					},
+					"name": "Large",
+					"slug": "large",
+					"size": "1.875rem"
+				},
+				{
+					"name": "Extra Large",
+					"slug": "x-large",
+					"size": "2rem"
+				},
+				{
+					"name": "Extra Extra Large",
+					"slug": "xx-large",
+					"size": "3.5rem"
 				}
 			]
 		}
@@ -232,7 +285,7 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "var(--wp--preset--spacing--70)",
+			"blockGap": "var(--wp--preset--spacing--60)",
 			"padding": {
 				"top": "0",
 				"right": "var(--wp--preset--spacing--40)",
