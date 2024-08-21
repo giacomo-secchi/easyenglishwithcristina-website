@@ -20,30 +20,22 @@
 		<!-- wp:columns {"align":"wide","style":{"layout":{"selfStretch":"fill","flexSize":null}}} -->
 		<div class="wp-block-columns alignwide">
 			<!-- wp:column {"verticalAlignment":"center"} -->
-			<div class="wp-block-column is-vertically-aligned-center">
-                
-			</div>
+			<div class="wp-block-column is-vertically-aligned-center"></div>
 			<!-- /wp:column -->
 				 
 			<!-- wp:column {"verticalAlignment":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"white","textColor":"contrast"} -->
 			<div class="wp-block-column is-vertically-aligned-center has-contrast-color has-white-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
-				<!-- wp:site-tagline {"style":{"typography":{"textTransform":"uppercase","fontWeight":"300"}},"textColor":"secondary","fontSize":"medium"} /-->
-
-				<!-- wp:heading {"style":{"spacing":{"margin":{"top":"0"}}}} -->
-				<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php echo esc_html_x( 'Do you want to speak English more fluently?', 'easyenglishwithcristinatheme' ); ?></h2>
-				<!-- /wp:heading -->
-				 <!-- wp:embed {"url":"https://www.youtube.com/watch?v=S1dZ-JrMAYc","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-4-3 wp-has-aspect-ratio"} -->
-				 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
-                    <div class="wp-block-embed__wrapper">
-                        https://www.youtube.com/watch?v=S1dZ-JrMAYc	
-                    </div>
-                </figure>
-                <!-- /wp:embed -->
-				 
-				<!-- wp:paragraph {"fontSize":"display"} -->
-				<p class="has-display-font-size"><?php echo esc_html_x( 'Fluency practice speaking building confidence, Learning English is easy and fun!', 'easyenglishwithcristinatheme' ); ?></p>
-				<!-- /wp:paragraph -->
-				 
+				<!-- wp:site-tagline {"style":{"typography":{"textTransform":"uppercase","fontWeight":"300"}},"textColor":"secondary"} /-->
+			
+				<?php $post_id = get_page_by_path( 'english-for-beginners', OBJECT, 'page')->ID; ?>
+				<!-- wp:query {"queryId": <?php echo $post_id; ?>,"query":{"perPage":1,"pages":1,"postType":"page"}} -->
+				<div class="wp-block-query">
+					<!-- wp:post-template -->
+					<!-- wp:post-content /-->
+					<!-- /wp:post-template -->
+				</div>
+				<!-- /wp:query -->
+				 		 
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons"><!-- wp:button -->
 					<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-for-beginners/' ) ); ?>"><?php echo esc_html_x( 'English for Beginners →', 'easyenglishwithcristinatheme' ); ?></a></div>

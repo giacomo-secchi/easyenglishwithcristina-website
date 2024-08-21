@@ -12,7 +12,7 @@
 
 <!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"180px"}}} -->
 <div class="wp-block-group">
-    <!-- wp:site-title /-->
+    <!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}}} /-->
 </div>
 <!-- /wp:group -->
 

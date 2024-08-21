@@ -1,9 +1,14 @@
 [data-no-translation] {
     display: flex;
     list-style-type: none;
- }
- 
- [data-no-translation] li + li {
-    margin-left: var(--wp--preset--spacing--40);
- }
+}
+
+[data-no-translation] li {
+   margin-left: var(--wp--preset--spacing--40);
+}
+
+[data-no-translation] li:not(:last-child)::after {
+   padding-left: 1em;
+   content: '/';
+}
 

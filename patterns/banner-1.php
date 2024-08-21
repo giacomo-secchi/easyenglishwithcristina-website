@@ -21,16 +21,17 @@
 				 
 			<!-- wp:column {"verticalAlignment":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"white","textColor":"contrast"} -->
 			<div class="wp-block-column is-vertically-aligned-center has-contrast-color has-white-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
-
-				<!-- wp:heading -->
-				<h2 class="wp-block-heading" id="lorem-ipsum"><?php echo esc_html_x( 'Are you preparing for IELTS / Cambridge Exams?', 'easyenglishwithcristinatheme' ); ?></h2>
-				<!-- /wp:heading -->
-
-				<!-- wp:paragraph {"fontSize":"display"} -->
-				<p class="has-display-font-size"><?php echo esc_html_x( 'Enroll live lessons weekly! This course focuses on four fundamental skills such as reading comprehension, tactics for listening, writing correction and, speaking practice.
-You will learn certain techniques that help you to achieve your desirable score.', 'easyenglishwithcristinatheme' ); ?></p>
-				<!-- /wp:paragraph -->
+				<?php $post_id = get_page_by_path( 'english-for-students', OBJECT, 'page')->ID; ?>
+				<!-- wp:query {"queryId": <?php echo $post_id; ?>,"query":{"perPage":1,"pages":1,"postType":"page"}} -->
+				<div class="wp-block-query">
+					<!-- wp:post-template -->
+					<!-- wp:post-content /-->
+					<!-- /wp:post-template -->
+				</div>
+				<!-- /wp:query -->
 				 
+				
+			 
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons"><!-- wp:button -->
 					<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-for-students/' ) ); ?>"><?php echo esc_html_x( 'English for Students →', 'easyenglishwithcristinatheme' ); ?></a></div>
@@ -42,8 +43,7 @@ You will learn certain techniques that help you to achieve your desirable score.
 			 
 			<!-- wp:column -->
 			<div class="wp-block-column"></div>
-			<!-- /wp:column -->
-		
+			<!-- /wp:column -->	
 		</div>
 		<!-- /wp:columns -->
 			

@@ -1,6 +1,18 @@
 {
 	"version": 2,
 	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+	"customTemplates": [
+		{
+			"name": "blank",
+			"title": "Blank",
+			"postTypes": [ "page", "post" ]
+		},
+		{
+			"name": "landing-page",
+			"title": "Landing Page",
+			"postTypes": [ "page" ]
+		}
+	],
 	"settings": {
 		"color": {
 			"duotone": [
@@ -40,7 +52,7 @@
 		},
 		"custom": {
 			"formInput": {
-				"color": "var(--wp--preset--color--base)",
+				"color": "var(--wp--preset--color--contrast)",
 				"background": "var(--wp--preset--color--white)",
 				"borderColor": "var(--wp--preset--color--base)"
 			},

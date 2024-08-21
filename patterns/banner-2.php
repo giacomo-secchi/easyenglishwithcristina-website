@@ -24,14 +24,13 @@
 			<!-- wp:column {"verticalAlignment":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"white","textColor":"contrast"} -->
 			<div class="wp-block-column is-vertically-aligned-center has-contrast-color has-white-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
 
-				<!-- wp:heading -->
-				<h2 class="wp-block-heading" id="lorem-ipsum"><?php echo esc_html_x( 'Do you want to communicate effectively with your colleagues?', 'easyenglishwithcristinatheme' ); ?></h2>
-				<!-- /wp:heading -->
-
-				<!-- wp:paragraph {"fontSize":"display"} -->
-				<p class="has-display-font-size"><?php echo esc_html_x( 'Cristina will plan each lesson based on your needs (Legal and financial vocabulary, how to communicate during a speech, how to sound like a professional not only in speaking 🗣 but also in writing ✍🏼)!
-Let’s get down to business!', 'easyenglishwithcristinatheme' ); ?></p>
-				<!-- /wp:paragraph -->
+				<!-- wp:query {"queryId":<?php echo get_page_by_path( 'english-for-business', OBJECT, 'page')->ID; ?>,"query":{"perPage":1,"postType":"page"}} -->
+				<div class="wp-block-query">
+					<!-- wp:post-template -->
+					<!-- wp:post-content /-->
+					<!-- /wp:post-template -->
+				</div>
+				<!-- /wp:query -->
 				 
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons"><!-- wp:button -->

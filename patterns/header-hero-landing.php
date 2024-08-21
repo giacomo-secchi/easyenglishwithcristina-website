@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Header inside hero
- * Slug: write-white/banner-3
+ * Title: Header hero for landing page
+ * Slug: easyenglishwithcristina/header-hero-landing
  * Categories: header, banner, call-to-action
  * Keywords: header, nav, links, button
  * Viewport Width: 1500
@@ -21,33 +21,20 @@
 		<div class="wp-block-columns alignwide">
 			<!-- wp:column {"verticalAlignment":"center"} -->
 			<div class="wp-block-column is-vertically-aligned-center">
-                <!-- wp:embed {"url":"https://www.youtube.com/watch?v=q1dblSSzYe4","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-4-3 wp-has-aspect-ratio"} -->
-                <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
-                    <div class="wp-block-embed__wrapper">
-                        https://www.youtube.com/watch?v=S1dZ-JrMAYc	
-                    </div>
-                </figure>
-                <!-- /wp:embed -->
+                
 			</div>
 			<!-- /wp:column -->
 				 
 			<!-- wp:column {"verticalAlignment":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"white","textColor":"contrast"} -->
 			<div class="wp-block-column is-vertically-aligned-center has-contrast-color has-white-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
-				<!-- wp:site-tagline {"style":{"typography":{"textTransform":"uppercase","fontWeight":"300"}},"textColor":"secondary","fontSize":"medium"} /-->
-
-				<!-- wp:heading {"style":{"spacing":{"margin":{"top":"0"}}}} -->
-				<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php echo esc_html_x( 'Do you want to speak English more fluently?', 'easyenglishwithcristinatheme' ); ?></h2>
-				<!-- /wp:heading -->
+				<!-- wp:post-title {"level":0,"style":{"typography":{"textTransform":"uppercase","fontWeight":"300"}},"textColor":"secondary"} /-->
 				 
-				<!-- wp:paragraph -->
-				<p><?php echo esc_html_x( 'Fluency practice speaking building confidence, Learning English is easy and fun!', 'easyenglishwithcristinatheme' ); ?></p>
-				<!-- /wp:paragraph -->
+				<!-- wp:post-content /-->
 				 
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons"><!-- wp:button -->
-					<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-for-beginners/' ) ); ?>"><?php echo esc_html_x( 'English for Beginners →', 'easyenglishwithcristinatheme' ); ?></a></div>
-					<!-- /wp:button -->
-				</div>
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#get-in-touch"><?php echo esc_html_x( 'Contact Me ↓', 'easyenglishwithcristinatheme' ); ?></a></div>
+				<!-- /wp:button --></div>
 				<!-- /wp:buttons -->
 			</div>
 			<!-- /wp:column -->
