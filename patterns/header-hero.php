@@ -10,7 +10,6 @@
  */
 ?>
 
-
 <!-- wp:cover {"metadata":{"name":"Merged banner with header"},"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pexels-charlotte-may-5824814.jpg","dimRatio":50,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover" style="min-height:100vh" id="header-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim has-background-dim "></span>
 <img class="wp-block-cover__image-background " alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pexels-charlotte-may-5824814.jpg" data-object-fit="cover" />
@@ -27,14 +26,7 @@
 			<div class="wp-block-column is-vertically-aligned-center has-contrast-color has-white-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
 				<!-- wp:site-tagline {"style":{"typography":{"textTransform":"uppercase","fontWeight":"300"}},"textColor":"secondary"} /-->
 			
-				<?php $post_id = get_page_by_path( 'english-for-beginners', OBJECT, 'page')->ID; ?>
-				<!-- wp:query {"queryId": <?php echo $post_id; ?>,"query":{"perPage":1,"pages":1,"postType":"page"}} -->
-				<div class="wp-block-query">
-					<!-- wp:post-template -->
-					<!-- wp:post-content /-->
-					<!-- /wp:post-template -->
-				</div>
-				<!-- /wp:query -->
+				<?php get_template_part( 'template-parts/content/content-banner' , null, 'english-for-beginners' ); ?>
 				 		 
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons"><!-- wp:button -->
