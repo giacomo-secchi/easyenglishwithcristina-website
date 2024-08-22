@@ -10,7 +10,7 @@
  * Inserter: true
  */
 ?>
-
+<?php global $theme_slug; ?>
 <!-- wp:cover {"metadata":{"name":"Banner 1"},"url":"<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/pexels-startup-stock-photos-7102.jpg","dimRatio":0,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","isDark":false,"style":{"color":{"duotone":"var:preset|duotone|blue-and-lavender"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-cover is-light" style="min-height:100vh" id="header-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim "></span>
 	<img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/pexels-startup-stock-photos-7102.jpg" data-object-fit="cover" />
@@ -39,21 +39,81 @@
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:column -->
-
+					 
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:list {"className":"is-style-checked","fontSize":"display"} -->
 						<ul class="wp-block-list is-style-checked has-display-font-size"><!-- wp:list-item -->
 							<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
-							<li style="margin-bottom:var(--wp--preset--spacing--40)">A unique and customized methodology that fits the needs of your company</li>
+							<li style="margin-bottom:var(--wp--preset--spacing--40)">
+								<!-- wp:paragraph {"style":{ "spacing":{"margin":{"bottom":"0px"}}},
+									"metadata":{
+										"bindings":{
+											"content":{
+												"source":"core/post-meta",
+												"args":{
+													"key":"<?php echo $theme_slug ?>_offer_first_element"
+												}
+											}
+										}
+									}
+								} -->
+								<p style="margin-top:0px">A unique and customized methodology that fits the needs of your company</p>
+								<!-- /wp:paragraph -->
+								</li>
 							<!-- /wp:list-item -->
 							<!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
-							<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">Improvement of the team’s skills and abilities</li>
+							<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">
+								<!-- wp:paragraph {
+									"metadata":{
+										"bindings":{
+											"content":{
+												"source":"core/post-meta",
+												"args":{
+													"key":"<?php echo $theme_slug ?>_offer_second_element"
+												}
+											}
+										}
+									}
+								} -->
+								<p>Improvement of the team’s skills and abilities</p>
+								<!-- /wp:paragraph -->
+								</li>
 							<!-- /wp:list-item -->
 							<!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
-							<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">Individualized monitoring for each employee</li>
+							<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">
+								<!-- wp:paragraph {
+									"metadata":{
+										"bindings":{
+											"content":{
+												"source":"core/post-meta",
+												"args":{
+													"key":"<?php echo $theme_slug ?>_offer_third_element"
+												}
+											}
+										}
+									}
+								} -->
+								<p>Individualized monitoring for each employee</p>
+								<!-- /wp:paragraph -->
+								</li>
 							<!-- /wp:list-item -->
 							<!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
-							<li style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">Measurable results and return on investment</li>
+							<li style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
+								<!-- wp:paragraph {
+									"metadata":{
+										"bindings":{
+											"content":{
+												"source":"core/post-meta",
+												"args":{
+													"key":"<?php echo $theme_slug ?>_offer_fourth_element"
+												}
+											}
+										}
+									}
+								} -->
+								<p>Measurable results and return on investment</p>
+								<!-- /wp:paragraph -->
+							</li>
 							<!-- /wp:list-item -->
 						</ul>
 						<!-- /wp:list -->
