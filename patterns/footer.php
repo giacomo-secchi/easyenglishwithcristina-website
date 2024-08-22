@@ -32,7 +32,19 @@
 			<div class="wp-block-column" style="flex-basis:66.66%">
 				<!-- wp:pattern {"slug":"write-white/newsletter-subscribe-jetpack"} /-->
 
-				<!-- wp:pattern {"slug":"write-white/main-navigation"} /-->
+				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"},"className":"flex-direction-column-mobile"} -->
+				<div class="wp-block-group">
+					<!-- wp:navigation {"overlayMenu":"never","icon":"menu","style":{"typography":{"fontWeight":"300","textTransform":"uppercase"},"layout":{"type":"flex","selfStretch":"fill","flexWrap":"wrap"}},"layout":{"type":"flex"},"ariaLabel":"<?php esc_attr_e( 'About', 'easyenglishwithcristinatheme' ); ?>"} -->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'English for Beginners', 'easyenglishwithcristinatheme' ); ?>","type":"page","url":"<?php echo esc_url( home_url( 'english-for-beginners/' ) ); ?>","kind":"post-type"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'English for Students', 'easyenglishwithcristinatheme' ); ?>","type":"page","url":"<?php echo esc_url( home_url( 'english-for-students/' ) ); ?>","kind":"post-type"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'English for Business', 'easyenglishwithcristinatheme' ); ?>","type":"page","url":"<?php echo esc_url( home_url( 'english-for-business/' ) ); ?>","kind":"post-type"} /-->
+					<!-- /wp:navigation -->
+								
+					<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"write-white/translatepress-language-switcher"}}}} -->
+						<p>Language Switcher</p>
+					<!-- /wp:paragraph -->
+				</div>
+				<!-- /wp:group -->
 			</div>
 			<!-- /wp:column -->
 		</div>
