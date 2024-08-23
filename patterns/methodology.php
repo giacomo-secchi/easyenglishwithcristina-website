@@ -66,9 +66,9 @@ My lessons are easy and fun to follow.', 'easyenglishwithcristinatheme' ); ?></p
                 <!-- /wp:heading -->  
 
                  <!-- wp:paragraph -->
-				<p><?php echo esc_html_x( 'Second, you learn vocabularies based on your need. Let me ask you a question. “Is it possible to know all the words in a dictionary?” - Of course not. And guess what? - You don’t have to.
+				<p><?php echo esc_html_x( 'Second, you learn vocabulary based on your need. Let me ask you a question. “Is it possible to know all the words in a dictionary?” - Of course not. And guess what? - You don’t have to.
 
-A beginner student just needs 1000 words to communicate effectively. So learning vocabularies form the conversational situations based on students’ needs is the key factor.
+A beginner student just needs 1000 words to communicate effectively. So learning vocabulary form the conversational situations based on students’ needs is the key factor.
 
 Don’t forget English leaners have different goals, and for instance this number is higher for a student who is preparing for an IELTS exam.', 'easyenglishwithcristinatheme' ); ?></p>
 				<!-- /wp:paragraph -->
