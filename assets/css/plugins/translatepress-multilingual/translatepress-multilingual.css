@@ -1,6 +1,7 @@
 [data-no-translation] {
-    display: flex;
-    list-style-type: none;
+   display: flex;
+   list-style-type: none;
+   padding: 0;
 }
 
 [data-no-translation] li {

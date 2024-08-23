@@ -32,17 +32,60 @@
 			<div class="wp-block-column" style="flex-basis:66.66%">
 				<!-- wp:pattern {"slug":"write-white/newsletter-subscribe-jetpack"} /-->
 
-				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"},"className":"flex-direction-column-mobile"} -->
+				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"}} -->
 				<div class="wp-block-group">
+				
 					<!-- wp:navigation {"overlayMenu":"never","icon":"menu","style":{"typography":{"fontWeight":"300","textTransform":"uppercase"},"layout":{"type":"flex","selfStretch":"fill","flexWrap":"wrap"}},"layout":{"type":"flex"},"ariaLabel":"<?php esc_attr_e( 'About', 'easyenglishwithcristinatheme' ); ?>"} -->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'English for Beginners', 'easyenglishwithcristinatheme' ); ?>","type":"page","url":"<?php echo esc_url( home_url( 'english-for-beginners/' ) ); ?>","kind":"post-type"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'English for Students', 'easyenglishwithcristinatheme' ); ?>","type":"page","url":"<?php echo esc_url( home_url( 'english-for-students/' ) ); ?>","kind":"post-type"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'English for Business', 'easyenglishwithcristinatheme' ); ?>","type":"page","url":"<?php echo esc_url( home_url( 'english-for-business/' ) ); ?>","kind":"post-type"} /-->
 					<!-- /wp:navigation -->
+					 
+
+					<!-- wp:columns -->
+					<div class="wp-block-columns">
+						<!-- wp:column -->
+						<div class="wp-block-column">
+							<!-- wp:list {"className":"is-style-none"} -->
+							<ul class="wp-block-list is-style-none">
+								<!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+								<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">
+									<!-- wp:html -->
+									<a href="https://www.iubenda.com/privacy-policy/70739930" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+									<!-- /wp:html -->
+								</li>
+								<!-- /wp:list-item -->
+								<!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+								<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">
+									<!-- wp:html -->
+									<a href="https://www.iubenda.com/privacy-policy/70739930/cookie-policy" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+									<!-- /wp:html -->
+								</li>
+								<!-- /wp:list-item -->
 								
-					<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"write-white/translatepress-language-switcher"}}}} -->
-						<p>Language Switcher</p>
-					<!-- /wp:paragraph -->
+								<!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+								<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">
+									<!-- wp:html -->
+									<a href="https://www.iubenda.com/termini-e-condizioni/70739930" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Termini e Condizioni ">Termini e Condizioni</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+									<!-- /wp:html -->
+								</li>
+								<!-- /wp:list-item -->
+							</ul>
+							<!-- /wp:list -->
+						</div>
+						<!-- /wp:column -->
+			 	 
+						<!-- wp:column -->
+						<div  class="wp-block-column">	
+							<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"write-white/translatepress-language-switcher"}}}} -->
+							<p>Language Switcher</p>
+							<!-- /wp:paragraph -->
+						</div>
+						<!-- /wp:column -->
+			
+					</div>
+					<!-- /wp:columns -->
+			
 				</div>
 				<!-- /wp:group -->
 			</div>
