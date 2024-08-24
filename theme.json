@@ -190,7 +190,7 @@
 				{
 					"name": "Extra Extra Large",
 					"slug": "xx-large",
-					"size": "3.5rem"
+					"size": "clamp(1.1rem, 15vw, 3.5rem)"
 				}
 			]
 		}
