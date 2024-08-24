@@ -33,7 +33,7 @@
 				<!-- /wp:heading -->
                  
                 <!-- wp:paragraph {"placeholder":"Content…","fontSize":"display"} -->
-                <p class="has-display-font-size">I’m Cristina and I am a <strong>TESOL certified English teacher</strong> with <strong>+10 years of experience</strong>.</p>
+                <p class="has-display-font-size">Mi chiamo Cristina e <strong>sono un'insegnante di inglese certificata TESOL</strong> con oltre <strong>10 anni di esperienza</strong>.</p>
                 <!-- /wp:paragraph -->
 				
                 <!-- wp:columns -->
@@ -42,7 +42,7 @@
                           
 
     <!-- wp:paragraph -->
-    <p>I can provide you with techniques that can <strong>improve your English within a few months</strong>.</p>
+    <p>Posso fornirti tecniche per <strong>migliorare il tuo inglese in pochi mesi</strong>.</p>
     <!-- /wp:paragraph -->
       <!-- wp:image {"id":371,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded","style":{"border":{"radius":"30px"}}} -->
 <figure class="wp-block-image size-large has-custom-border is-style-rounded"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/WhatsApp-Image-2021-05-28-at-17.03.30.jpeg" alt="" class="wp-image-371" style="border-radius:30px"/></figure>
@@ -56,10 +56,10 @@
  <!-- wp:column -->
  <div class="wp-block-column">
              <!-- wp:paragraph -->
-    <p>I have been teaching since college where I had the opportunity to work part time as a teacher. In no time, being a teacher became more than just a career for me…</p>
+    <p>Insegno sin dai tempi del college, dove ho avuto l'opportunità di lavorare part-time come insegnante. In poco tempo, essere insegnante è diventato più di una semplice carriera per me…</p>
     <!-- /wp:paragraph -->           
 <!-- wp:paragraph -->
-<p>I was eager to learn, so I participated in some teaching training courses including TESOL, training kids, teenagers, adults, and IELTS preparation courses.</p>
+<p>Ero desiderosa di imparare, quindi ho partecipato a diversi corsi di formazione per insegnanti, tra cui TESOL, formazione per bambini, adolescenti e adulti, e corsi di preparazione per l'IELTS.</p>
     <!-- /wp:paragraph -->
                     
                               
@@ -69,11 +69,11 @@
 					<div class="wp-block-column">
                         
 			  <!-- wp:paragraph -->
-              <p>My personal life is full of passion for languages, travelling, and socialization. That’s why I enjoy working with people and being a teacher is not what I do any more, it has become who I am.</p>
+              <p>La mia vita personale è piena di passione per le lingue, i viaggi e la socializzazione. Per questo motivo, mi piace lavorare con le persone e, per me, essere insegnante non è più solo un lavoro, ma è diventato parte di chi sono.</p>
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
-    <p>I possess soft skills like <strong>facilitating learning process using different digital software, presenting webinars, and preparing goal oriented lesson plans</strong>.</p>
+    <p>Possiedo competenze trasversali come: <strong>facilitare il processo di apprendimento utilizzando diversi software digitali, presentare webinar e preparare piani di lezione orientati agli obiettivi</strong>.</p>
     <!-- /wp:paragraph -->
      			
                     

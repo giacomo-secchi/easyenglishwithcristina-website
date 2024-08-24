@@ -27,11 +27,11 @@
 <!-- wp:site-tagline {"style":{"typography":{"textTransform":"uppercase","fontWeight":"300"}},"textColor":"secondary","fontSize":"medium"} /-->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"top":"0"}}}} -->
-<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php echo esc_html_x( 'Get in touch', 'easyenglishwithcristinatheme' ); ?></h2>
+<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php echo esc_html_x( 'Richiedi un preventivo', 'easyenglishwithcristinatheme' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Fill out this quick contact form, and we will send you the estimate cost for your course.</p>
+<p>Compila questo modulo di contatto e ti invieremo il preventivo per il tuo corso.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:jetpack/contact-form {"to":"example@example.com","className":"is-style-default"} -->
@@ -41,9 +41,9 @@
 
 <!-- wp:jetpack/field-telephone /-->
 
-<!-- wp:jetpack/field-textarea {"label":"Message"} /-->
+<!-- wp:jetpack/field-textarea {"label":"Messaggio"} /-->
 
-<!-- wp:jetpack/button {"element":"button","text":"Contact Us","lock":{"remove":true}} /--></div>
+<!-- wp:jetpack/button {"element":"button","text":"Contattaci","lock":{"remove":true}} /--></div>
 <!-- /wp:jetpack/contact-form --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

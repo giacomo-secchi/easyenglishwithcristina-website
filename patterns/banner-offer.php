@@ -29,35 +29,36 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:heading {"style":{"spacing":{"margin":{"top":"0"}}}} -->
-				<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php echo esc_html_x('What You Get', 'easyenglishwithcristinatheme'); ?></h2>
+				<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php echo esc_html_x('Cosa otterrai', 'easyenglishwithcristinatheme'); ?></h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:columns -->
 				<div class="wp-block-columns"><!-- wp:column -->
-					<div class="wp-block-column"><!-- wp:paragraph -->
-						<p>My method is based on the theory of natural language acquisition, through real-life simulations, in a context where only English is spoken. In this way, each student learns at their own natural study pace and according to their specific needs. This method ensures the achievement of their language goals and helps them quickly reach the desired level of English.</p>
+					<div class="wp-block-column">
+						<!-- wp:paragraph -->
+						<p>Il mio metodo si basa sulla teoria dell'acquisizione naturale della lingua, attraverso simulazioni della vita reale, in un contesto in cui si parla esclusivamente inglese. In questo modo, ogni studente impara al proprio ritmo naturale di studio e in base alle proprie esigenze specifiche. Questo metodo garantisce il raggiungimento degli obiettivi linguistici e aiuta a raggiungere rapidamente il livello desiderato di inglese.</p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:column -->
-					 
+
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:list {"className":"is-style-checked","fontSize":"display"} -->
 						<ul class="wp-block-list is-style-checked has-display-font-size"><!-- wp:list-item -->
 							<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
 							<li style="margin-bottom:var(--wp--preset--spacing--40)">
-								<!-- wp:paragraph {"style":{ "spacing":{"margin":{"bottom":"0px"}}},
+								<!-- wp:paragraph {
 									"metadata":{
 										"bindings":{
 											"content":{
 												"source":"core/post-meta",
 												"args":{
-													"key":"<?php echo $theme_slug ?>_offer_first_element"
+													"key":"eewc_offer_element_1"
 												}
 											}
 										}
 									}
 								} -->
-								<p style="margin-top:0px">A unique and customized methodology that fits the needs of your company</p>
+								<p>Una metodologia unica e personalizzata che si adatta alle esigenze della tua azienda.</p>
 								<!-- /wp:paragraph -->
 								</li>
 							<!-- /wp:list-item -->
@@ -69,13 +70,13 @@
 											"content":{
 												"source":"core/post-meta",
 												"args":{
-													"key":"<?php echo $theme_slug ?>_offer_second_element"
+													"key":"<?php echo $theme_slug ?>_offer_element_2"
 												}
 											}
 										}
 									}
 								} -->
-								<p>Improvement of the team’s skills and abilities</p>
+								<p>Miglioramento delle competenze e abilità del team.</p>
 								<!-- /wp:paragraph -->
 								</li>
 							<!-- /wp:list-item -->
@@ -87,31 +88,31 @@
 											"content":{
 												"source":"core/post-meta",
 												"args":{
-													"key":"<?php echo $theme_slug ?>_offer_third_element"
+													"key":"easyenglishwithcristinatheme_offer_element_3"
 												}
 											}
 										}
 									}
 								} -->
-								<p>Individualized monitoring for each employee</p>
+								<p>Monitoraggio individualizzato per ciascun dipendente.</p>
 								<!-- /wp:paragraph -->
 								</li>
 							<!-- /wp:list-item -->
 							<!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
-							<li style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
+							<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">
 								<!-- wp:paragraph {
 									"metadata":{
 										"bindings":{
 											"content":{
 												"source":"core/post-meta",
 												"args":{
-													"key":"<?php echo $theme_slug ?>_offer_fourth_element"
+													"key":"easyenglishwithcristinatheme_offer_element_4"
 												}
 											}
 										}
 									}
 								} -->
-								<p>Measurable results and return on investment</p>
+								<p>Risultati misurabili e ritorno sull'investimento.</p>
 								<!-- /wp:paragraph -->
 							</li>
 							<!-- /wp:list-item -->

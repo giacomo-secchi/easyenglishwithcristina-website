@@ -23,7 +23,7 @@
 				<!-- /wp:group -->
 				 
 				<!-- wp:paragraph {"style":{"typography":{"fontWeight":"300"}}} -->
-				<p style="font-weight:300"><?php echo esc_html_x( 'English is a global language. Imagine if you were a fluent speaker, you could make more money and become more successful in your work, study and life. So start learning today', 'easyenglishwithcristinatheme' ); ?></p>
+				<p style="font-weight:300"><?php echo esc_html_x( 'L\'inglese è una lingua globale. Immagina se potessi parlare in modo più fluente, potresti guadagnare di più e avere più successo nel lavoro, nello studio e nella vita. Quindi, inizia a imparare oggi stesso!', 'easyenglishwithcristinatheme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
