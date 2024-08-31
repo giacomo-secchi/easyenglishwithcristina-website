@@ -10,9 +10,13 @@
     <!-- wp:navigation-link {"label":"<?php esc_html_e( 'English for Business', 'easyenglishwithcristinatheme' ); ?>","type":"page","url":"<?php echo esc_url( home_url( 'english-for-business/' ) ); ?>","kind":"post-type"} /-->
 <!-- /wp:navigation -->
  
-<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"write-white/translatepress-language-switcher"}}}} -->
-<p>Language Switcher</p>
-<!-- /wp:paragraph -->
+<!-- wp:group {className":"language-switcher language-switcher-layout-1"} -->
+<div class="wp-block-group language-switcher language-switcher-layout-1">
+    <!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"write-white/translatepress-language-switcher"}}}} -->
+    <p>Language Switcher</p>
+    <!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
  
 
 

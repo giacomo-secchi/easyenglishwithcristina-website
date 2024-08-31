@@ -77,9 +77,13 @@
 			 	 
 						<!-- wp:column -->
 						<div  class="wp-block-column">	
-							<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"write-white/translatepress-language-switcher"}}}} -->
-							<p>Language Switcher</p>
-							<!-- /wp:paragraph -->
+							<!-- wp:group {className":"language-switcher language-switcher-layout-1"} -->
+							<div class="wp-block-group language-switcher language-switcher-layout-1">
+								<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"write-white/translatepress-language-switcher"}}}} -->
+								<p>Language Switcher</p>
+								<!-- /wp:paragraph -->
+							</div>
+							<!-- /wp:group -->
 						</div>
 						<!-- /wp:column -->
 			

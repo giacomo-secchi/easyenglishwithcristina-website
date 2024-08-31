@@ -1,0 +1,4 @@
+.wp-block-read-more::after {
+    content: ' →'; /* Unicode arrow character */
+    margin-left: 5px; /* Space between text and arrow */
+}
