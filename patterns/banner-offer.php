@@ -10,7 +10,7 @@
  * Inserter: true
  */
 ?>
-<?php global $theme_slug; ?>
+
 <!-- wp:cover {"metadata":{"name":"Banner 1"},"url":"<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/pexels-startup-stock-photos-7102.jpg","dimRatio":0,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","isDark":false,"style":{"color":{"duotone":"var:preset|duotone|blue-and-lavender"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-cover is-light" style="min-height:100vh" id="header-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim "></span>
 	<img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/pexels-startup-stock-photos-7102.jpg" data-object-fit="cover" />
@@ -25,17 +25,28 @@
 			<!-- wp:column {"verticalAlignment":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"white","textColor":"contrast"} -->
 			<div class="wp-block-column is-vertically-aligned-center has-contrast-color has-white-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
 				<!-- wp:paragraph {"align":"left","style":{"typography":{"textTransform":"uppercase","fontWeight":"300"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} -->
-				<p class="has-text-align-left has-secondary-color has-text-color has-link-color" style="text-transform:uppercase;font-weight:300"><?php echo esc_html_x('Educational offer', 'easyenglishwithcristinatheme'); ?></p>
+				<p class="has-text-align-left has-secondary-color has-text-color has-link-color" style="text-transform:uppercase;font-weight:300"><?php echo esc_html_x('Educational offer', 'easyenglishwithcristina'); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:heading {"style":{"spacing":{"margin":{"top":"0"}}}} -->
-				<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php echo esc_html_x('Cosa otterrai', 'easyenglishwithcristinatheme'); ?></h2>
+				<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php echo esc_html_x('Cosa otterrai', 'easyenglishwithcristina'); ?></h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:columns -->
 				<div class="wp-block-columns"><!-- wp:column -->
 					<div class="wp-block-column">
-						<!-- wp:paragraph -->
+						<!-- wp:paragraph {
+							"metadata":{
+								"bindings":{
+									"content":{
+										"source":"core/post-meta",
+										"args":{
+											"key":"easyenglishwithcristina_offer_description"
+										}
+									}
+								}
+							}
+						} -->
 						<p>Il mio metodo si basa sulla teoria dell'acquisizione naturale della lingua, attraverso simulazioni della vita reale, in un contesto in cui si parla esclusivamente inglese. In questo modo, ogni studente impara al proprio ritmo naturale di studio e in base alle proprie esigenze specifiche. Questo metodo garantisce il raggiungimento degli obiettivi linguistici e aiuta a raggiungere rapidamente il livello desiderato di inglese.</p>
 						<!-- /wp:paragraph -->
 					</div>
@@ -52,7 +63,7 @@
 											"content":{
 												"source":"core/post-meta",
 												"args":{
-													"key":"eewc_offer_element_1"
+													"key":"easyenglishwithcristina_offer_element_1"
 												}
 											}
 										}
@@ -60,7 +71,7 @@
 								} -->
 								<p>Una metodologia unica e personalizzata che si adatta alle esigenze della tua azienda.</p>
 								<!-- /wp:paragraph -->
-								</li>
+							</li>
 							<!-- /wp:list-item -->
 							<!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 							<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">
@@ -70,7 +81,7 @@
 											"content":{
 												"source":"core/post-meta",
 												"args":{
-													"key":"<?php echo $theme_slug ?>_offer_element_2"
+													"key":"easyenglishwithcristina_offer_element_2"
 												}
 											}
 										}
@@ -88,7 +99,7 @@
 											"content":{
 												"source":"core/post-meta",
 												"args":{
-													"key":"easyenglishwithcristinatheme_offer_element_3"
+													"key":"easyenglishwithcristina_offer_element_3"
 												}
 											}
 										}
@@ -106,7 +117,7 @@
 											"content":{
 												"source":"core/post-meta",
 												"args":{
-													"key":"easyenglishwithcristinatheme_offer_element_4"
+													"key":"easyenglishwithcristina_offer_element_4"
 												}
 											}
 										}

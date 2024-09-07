@@ -27,7 +27,7 @@
 <!-- wp:site-tagline {"style":{"typography":{"textTransform":"uppercase","fontWeight":"300"}},"textColor":"secondary","fontSize":"medium"} /-->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"top":"0"}}}} -->
-<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php echo esc_html_x( 'Richiedi un preventivo', 'easyenglishwithcristinatheme' ); ?></h2>
+<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php echo esc_html_x( 'Richiedi un preventivo', 'easyenglishwithcristina' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

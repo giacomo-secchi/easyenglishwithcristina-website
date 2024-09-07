@@ -31,7 +31,7 @@
 				 		 
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons"><!-- wp:button -->
-					<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-for-beginners/' ) ); ?>"><?php echo esc_html_x( 'English for Beginners →', 'easyenglishwithcristinatheme' ); ?></a></div>
+					<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-for-beginners/' ) ); ?>"><?php echo esc_html_x( 'English for Beginners →', 'easyenglishwithcristina' ); ?></a></div>
 					<!-- /wp:button -->
 				</div>
 				<!-- /wp:buttons -->

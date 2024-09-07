@@ -15,11 +15,11 @@
     <div class="wp-block-group alignwide">
         
         <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"small"} -->
-        <p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php echo esc_html_x( 'Teaching method', 'easyenglishwithcristinatheme' ); ?></p>
+        <p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php echo esc_html_x( 'Teaching method', 'easyenglishwithcristina' ); ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:heading {"textAlign":"center","align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"primary"} -->
-        <h2 class="wp-block-heading alignwide has-text-align-center has-primary-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0"><?php echo esc_html_x( 'Il mio metodo', 'easyenglishwithcristinatheme' ); ?></h2>
+        <h2 class="wp-block-heading alignwide has-text-align-center has-primary-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0"><?php echo esc_html_x( 'Il mio metodo', 'easyenglishwithcristina' ); ?></h2>
         <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
@@ -37,11 +37,11 @@
 
                  
                 <!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Impara l’inglese attraverso la conversazione', 'easyenglishwithcristinatheme' ); ?></h4>
+                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Impara l’inglese attraverso la conversazione', 'easyenglishwithcristina' ); ?></h4>
                 <!-- /wp:heading -->  
 
                 <!-- wp:paragraph -->
-				<p><?php echo esc_html_x( 'Ti garantisco che imparare l’inglese attraverso la conversazione è il metodo più efficace. In primo luogo, puoi acquisire sicurezza fin dall’inizio e utilizzare espressioni colloquiali (frasi parlate in inglese) invece di lottare con la grammatica. Le mie lezioni sono facili e divertenti da seguire.', 'easyenglishwithcristinatheme' ); ?></p>
+				<p><?php echo esc_html_x( 'Ti garantisco che imparare l’inglese attraverso la conversazione è il metodo più efficace. In primo luogo, puoi acquisire sicurezza fin dall’inizio e utilizzare espressioni colloquiali (frasi parlate in inglese) invece di lottare con la grammatica. Le mie lezioni sono facili e divertenti da seguire.', 'easyenglishwithcristina' ); ?></p>
 				<!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -58,11 +58,11 @@
                 <!-- /wp:image -->
                  
                 <!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Conversazione per tutte le occasioni', 'easyenglishwithcristinatheme' ); ?></h4>
+                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Conversazione per tutte le occasioni', 'easyenglishwithcristina' ); ?></h4>
                 <!-- /wp:heading -->  
 
                  <!-- wp:paragraph -->
-				<p><?php echo esc_html_x( 'Secondo punto: impari il vocabolario in base alle tue esigenze. Lascia che ti faccia una domanda: "È possibile conoscere tutte le parole di un dizionario?" – Ovviamente no. E indovina un po\'? – Non è necessario. Uno studente principiante ha bisogno di appena 1000 parole per comunicare efficacemente. Quindi, imparare il vocabolario dalle situazioni conversazionali basate sulle esigenze degli studenti è il fattore chiave. Non dimenticare che ogni persona ha obiettivi diversi e, ad esempio, questo numero è più alto per uno studente che si sta preparando per un esame IELTS.', 'easyenglishwithcristinatheme' ); ?></p>
+				<p><?php echo esc_html_x( 'Secondo punto: impari il vocabolario in base alle tue esigenze. Lascia che ti faccia una domanda: "È possibile conoscere tutte le parole di un dizionario?" – Ovviamente no. E indovina un po\'? – Non è necessario. Uno studente principiante ha bisogno di appena 1000 parole per comunicare efficacemente. Quindi, imparare il vocabolario dalle situazioni conversazionali basate sulle esigenze degli studenti è il fattore chiave. Non dimenticare che ogni persona ha obiettivi diversi e, ad esempio, questo numero è più alto per uno studente che si sta preparando per un esame IELTS.', 'easyenglishwithcristina' ); ?></p>
 				<!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -79,14 +79,14 @@
                 <!-- /wp:image -->
                  
                 <!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Suggerimenti pratici per migliorare il tuo inglese', 'easyenglishwithcristinatheme' ); ?></h4>
+                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Suggerimenti pratici per migliorare il tuo inglese', 'easyenglishwithcristina' ); ?></h4>
                 <!-- /wp:heading -->  
 
 
 
 
                  <!-- wp:paragraph -->
-				<p><?php echo esc_html_x( 'Sono qui per aiutarti lungo il tuo percorso. Imparare l\'inglese è un viaggio che richiede pazienza e pratica, e io farò in modo che tu rimanga motivato durante questo viaggio.', 'easyenglishwithcristinatheme' ); ?></p>
+				<p><?php echo esc_html_x( 'Sono qui per aiutarti lungo il tuo percorso. Imparare l\'inglese è un viaggio che richiede pazienza e pratica, e io farò in modo che tu rimanga motivato durante questo viaggio.', 'easyenglishwithcristina' ); ?></p>
 				<!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->

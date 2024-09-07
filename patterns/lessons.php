@@ -15,11 +15,11 @@
     <div class="wp-block-group alignwide">
         
         <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"small"} -->
-        <p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php echo esc_html_x( 'Lesson Type', 'easyenglishwithcristinatheme' ); ?></p>
+        <p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php echo esc_html_x( 'Lesson Type', 'easyenglishwithcristina' ); ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:heading {"textAlign":"center","align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"primary"} -->
-        <h2 class="wp-block-heading alignwide has-text-align-center has-primary-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0"><?php echo esc_html_x( 'Seleziona il tuo pacchetto di lezioni', 'easyenglishwithcristinatheme' ); ?></h2>
+        <h2 class="wp-block-heading alignwide has-text-align-center has-primary-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0"><?php echo esc_html_x( 'Seleziona il tuo pacchetto di lezioni', 'easyenglishwithcristina' ); ?></h2>
         <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
@@ -32,7 +32,7 @@
                 <!-- /wp:group -->
 
                 <!-- wp:heading {"textAlign":"center","level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Lezioni online', 'easyenglishwithcristinatheme' ); ?></h4>
+                <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Lezioni online', 'easyenglishwithcristina' ); ?></h4>
                 <!-- /wp:heading -->
             </div>
             <!-- /wp:group -->
@@ -46,7 +46,7 @@
                 <!-- /wp:group -->
 
                 <!-- wp:heading {"textAlign":"center","level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Lezioni in presenza', 'easyenglishwithcristinatheme' ); ?></h4>
+                <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Lezioni in presenza', 'easyenglishwithcristina' ); ?></h4>
                 <!-- /wp:heading -->
             </div>
             <!-- /wp:group -->
@@ -60,7 +60,7 @@
                 <!-- /wp:group -->
 
                 <!-- wp:heading {"textAlign":"center","level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Lezioni di gruppo', 'easyenglishwithcristinatheme' ); ?></h4>
+                <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Lezioni di gruppo', 'easyenglishwithcristina' ); ?></h4>
                 <!-- /wp:heading -->
             </div>
             <!-- /wp:group -->
