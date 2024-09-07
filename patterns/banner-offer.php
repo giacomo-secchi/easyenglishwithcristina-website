@@ -47,7 +47,7 @@
 								}
 							}
 						} -->
-						<p>Il mio metodo si basa sulla teoria dell'acquisizione naturale della lingua, attraverso simulazioni della vita reale, in un contesto in cui si parla esclusivamente inglese. In questo modo, ogni studente impara al proprio ritmo naturale di studio e in base alle proprie esigenze specifiche. Questo metodo garantisce il raggiungimento degli obiettivi linguistici e aiuta a raggiungere rapidamente il livello desiderato di inglese.</p>
+						<p></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:column -->
@@ -69,7 +69,7 @@
 										}
 									}
 								} -->
-								<p>Una metodologia unica e personalizzata che si adatta alle esigenze della tua azienda.</p>
+								<p></p>
 								<!-- /wp:paragraph -->
 							</li>
 							<!-- /wp:list-item -->
@@ -87,7 +87,7 @@
 										}
 									}
 								} -->
-								<p>Miglioramento delle competenze e abilità del team.</p>
+								<p></p>
 								<!-- /wp:paragraph -->
 								</li>
 							<!-- /wp:list-item -->
@@ -105,7 +105,7 @@
 										}
 									}
 								} -->
-								<p>Monitoraggio individualizzato per ciascun dipendente.</p>
+								<p></p>
 								<!-- /wp:paragraph -->
 								</li>
 							<!-- /wp:list-item -->
@@ -123,7 +123,7 @@
 										}
 									}
 								} -->
-								<p>Risultati misurabili e ritorno sull'investimento.</p>
+								<p></p>
 								<!-- /wp:paragraph -->
 							</li>
 							<!-- /wp:list-item -->
