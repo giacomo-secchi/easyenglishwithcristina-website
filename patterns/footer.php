@@ -40,6 +40,7 @@
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'English for Students', 'easyenglishwithcristina' ); ?>","type":"page","url":"<?php echo esc_url( home_url( 'english-for-students/' ) ); ?>","kind":"post-type"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'English for Business', 'easyenglishwithcristina' ); ?>","type":"page","url":"<?php echo esc_url( home_url( 'english-for-business/' ) ); ?>","kind":"post-type"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'easyenglishwithcristina' ); ?>","type":"page","url":"<?php echo esc_url( home_url( 'blog/' ) ); ?>","kind":"post-type"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Assessment Test', 'easyenglishwithcristina' ); ?>","type":"page","url":"<?php echo esc_url( home_url( 'english-test/' ) ); ?>","kind":"post-type"} /-->
 					<!-- /wp:navigation -->
 					 
 

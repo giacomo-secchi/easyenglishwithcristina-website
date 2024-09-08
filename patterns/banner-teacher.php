@@ -12,8 +12,6 @@
 
 <!-- wp:cover {"url":"<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/pexels-antonio-quagliata-227433.jpg","id":323,"dimRatio":50,"overlayColor":"primary","isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","style":{"color":{"duotone":"var:preset|duotone|blue-and-lavender"}}} -->
 <div class="wp-block-cover" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-323" alt="" src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/pexels-antonio-quagliata-227433.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
-    
-
 
  
 	<!-- wp:columns {"align":"wide","style":{"layout":{"selfStretch":"fill","flexSize":null}}} -->
@@ -21,9 +19,10 @@
 			<!-- wp:column {"width":"38%"} -->
 			<div class="wp-block-column" style="flex-basis:38%"></div>
 			<!-- /wp:column -->
+			 
 
-			<!-- wp:column {"verticalAlignment":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"white","textColor":"contrast"} -->
-			<div class="wp-block-column is-vertically-aligned-center has-contrast-color has-white-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
+			<!-- wp:column {"verticalAlignment":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"white-semi-trasparent","textColor":"contrast"} -->
+			<div class="wp-block-column is-vertically-aligned-center has-contrast-color has-white-semi-trasparent-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
 				<!-- wp:paragraph {"align":"left","style":{"typography":{"textTransform":"uppercase","fontWeight":"300"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} -->
 				<p class="has-text-align-left has-secondary-color has-text-color has-link-color" style="text-transform:uppercase;font-weight:300"><?php echo esc_html_x('About the teacher', 'easyenglishwithcristina'); ?></p>
 				<!-- /wp:paragraph -->

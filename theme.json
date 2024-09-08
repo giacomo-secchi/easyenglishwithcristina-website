@@ -47,6 +47,11 @@
 					"color": "#F02D3A",
 					"name": "Secondary",
 					"slug": "secondary"
+				},
+				{
+					"color": "#ffffffe8",
+					"name": "White Semi-trasparent",
+					"slug": "white-semi-trasparent"
 				}
 			]
 		},
@@ -62,6 +67,10 @@
 				"tileBackground": "var(--wp--preset--color--white)",
 				"width": "var(--wp--style--global--wide-size)"
 			}
+		},
+		"layout": {
+			"contentSize": "700px",
+			"wideSize": "80vw"
 		},
 		"typography": {
 			"fontFamilies": [
