@@ -108,11 +108,13 @@
  
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","openInNewTab":true,"size":"has-medium-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->
+		<!-- wp:social-links {"openInNewTab":true,"iconColor":"base","size":"has-medium-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->
 		<ul class="wp-block-social-links has-medium-icon-size has-icon-color is-style-logos-only">
 			<!-- wp:social-link {"url":"https://www.instagram.com/easyenglishwithcristina","service":"instagram","label":"My Instagram Profile"} /-->
+			<!-- wp:social-link {"url":"https://www.threads.net/@easyenglishwithcristina","service":"threads"} /-->
 			<!-- wp:social-link {"url":"https://www.youtube.com/channel/UC9EORwHrZ7Lv60TsqCfxzAg","service":"youtube","label":"My YouTube Channel"} /-->
 			<!-- wp:social-link {"url":"https://www.linkedin.com/in/cristina-farahani-040282147/","service":"linkedin"} /-->
+			<!-- wp:social-link {"url":"https://www.tiktok.com/@easyenglishwithcr","service":"tiktok"} /-->
 		</ul>
 		<!-- /wp:social-links -->
  
