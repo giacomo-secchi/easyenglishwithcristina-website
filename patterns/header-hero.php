@@ -10,9 +10,9 @@
  */
 ?>
 
-<!-- wp:cover {"metadata":{"name":"Merged banner with header"},"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pexels-charlotte-may-5824814.jpg","dimRatio":50,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","layout":{"type":"constrained"}} -->
+<!-- wp:cover {"metadata":{"name":"Merged banner with header"},"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-antonio-quagliata-227433.jpg","dimRatio":50,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","style":{"color":{"duotone":"var:preset|duotone|blue-and-lavender"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-cover" style="min-height:100vh" id="header-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim has-background-dim "></span>
-<img class="wp-block-cover__image-background " alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pexels-charlotte-may-5824814.jpg" data-object-fit="cover" />
+<img class="wp-block-cover__image-background " alt="" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-antonio-quagliata-227433.jpg" data-object-fit="cover" />
     <div class="wp-block-cover__inner-container">
 		
 		<!-- wp:pattern {"slug":"easyenglishwithcristina/header-default"} /--> 
@@ -40,7 +40,10 @@
 		
 		</div>
 		<!-- /wp:columns -->
-			
+	
+		<!-- wp:spacer {"height":"80px"} -->
+		<div style="height:80px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- /wp:spacer -->
     </div>
 </div>
 <!-- /wp:cover -->
