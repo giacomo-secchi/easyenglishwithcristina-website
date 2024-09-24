@@ -34,7 +34,7 @@
 <p>Compila questo modulo di contatto e ti invieremo il preventivo per il tuo corso.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:jetpack/contact-form {"to":"example@example.com","className":"is-style-default"} -->
+<!-- wp:jetpack/contact-form {"to":"info@easyenglishwithcristina.com","className":"is-style-default"} -->
 <div class="wp-block-jetpack-contact-form is-style-default"><!-- wp:jetpack/field-name {"required":true} /-->
 
 <!-- wp:jetpack/field-email {"required":true} /-->
