@@ -15,11 +15,11 @@
     <div class="wp-block-group alignwide">
         
         <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"small"} -->
-        <p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php echo esc_html_x( 'Multiple choice quiz', 'easyenglishwithcristina' ); ?></p>
+        <p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'Multiple choice quiz', 'easyenglishwithcristina' ); ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:heading {"textAlign":"center","align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"primary"} -->
-        <h2 class="wp-block-heading alignwide has-text-align-center has-primary-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0"><?php echo esc_html_x( 'Vuoi scoprire il tuo livello di inglese?', 'easyenglishwithcristina' ); ?></h2>
+        <h2 class="wp-block-heading alignwide has-text-align-center has-primary-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'What’s your English level? Find out NOW!', 'easyenglishwithcristina' ); ?></h2>
         <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
@@ -32,21 +32,21 @@
         <!-- /wp:image -->
             
         <!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-        <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Free English evaluation test', 'easyenglishwithcristina' ); ?></h4>
+        <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php esc_html_e( 'Free English-level test', 'easyenglishwithcristina' ); ?></h4>
         <!-- /wp:heading -->  
 
         <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"display"} -->
-        <p class="has-display-font-size" style="margin-top:0;margin-bottom:0"><?php echo esc_html_x( 'Metti alla prova il tuo inglese in pochi minuti, gratuitamente!', 'easyenglishwithcristina' ); ?></p>
+        <p class="has-display-font-size" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'Test your English for free!', 'easyenglishwithcristina' ); ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:paragraph -->
-        <p><?php echo esc_html_x( 'Questo test ti fornirà un\'indicazione approssimativa del tuo attuale livello di inglese. Il test è composto da 50 domande a scelta multipla. Il test dura solo 10 minuti, perfetto per una valutazione rapida ed efficace del tuo livello di inglese!', 'easyenglishwithcristina' ); ?></p>
+        <p><?php esc_html_e( 'This test will give you a rough indication of your current level of English. The test consists of 50 multiple-choice questions. It only lasts 10 minutes, suitable for a quick and effective assessment of your English level!', 'easyenglishwithcristina' ); ?></p>
         <!-- /wp:paragraph -->
             
         <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
         <div class="wp-block-buttons">
             <!-- wp:button -->
-            <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-test/' ) ); ?>"><?php echo esc_html_x( 'Inizia il test', 'easyenglishwithcristina' ); ?></a></div>
+            <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-test/' ) ); ?>"><?php esc_html_e( 'Start the test', 'easyenglishwithcristina' ); ?></a></div>
             <!-- /wp:button -->
         </div>
         <!-- /wp:buttons -->

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Site title with tagline
- * Slug: write-white/branding
+ * Slug: blankspace/branding
  * Categories: header
  * Keywords: Basic Header, header, brand, site title, tagline
  * Viewport Width: 300
@@ -10,9 +10,8 @@
  */
 ?>
 
-<!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"180px"}}} -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group">
-    <!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}}} /-->
+    <!-- wp:site-logo {"width":372,"shouldSyncIcon":false} /-->
 </div>
 <!-- /wp:group -->
-

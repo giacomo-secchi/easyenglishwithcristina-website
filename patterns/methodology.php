@@ -15,11 +15,11 @@
     <div class="wp-block-group alignwide">
         
         <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"small"} -->
-        <p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php echo esc_html_x( 'Teaching method', 'easyenglishwithcristina' ); ?></p>
+        <p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'Teaching method', 'easyenglishwithcristina' ); ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:heading {"textAlign":"center","align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"primary"} -->
-        <h2 class="wp-block-heading alignwide has-text-align-center has-primary-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0"><?php echo esc_html_x( 'Il mio metodo', 'easyenglishwithcristina' ); ?></h2>
+        <h2 class="wp-block-heading alignwide has-text-align-center has-primary-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'My Methodology', 'easyenglishwithcristina' ); ?></h2>
         <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
@@ -37,11 +37,11 @@
 
                  
                 <!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Impara l’inglese attraverso la conversazione', 'easyenglishwithcristina' ); ?></h4>
+                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php esc_html_e( 'Learn English by conversation', 'easyenglishwithcristina' ); ?></h4>
                 <!-- /wp:heading -->  
 
                 <!-- wp:paragraph -->
-				<p><?php echo esc_html_x( 'Ti garantisco che imparare l’inglese attraverso la conversazione è il metodo più efficace. In primo luogo, puoi acquisire sicurezza fin dall’inizio e utilizzare espressioni colloquiali (frasi parlate in inglese) invece di lottare con la grammatica. Le mie lezioni sono facili e divertenti da seguire.', 'easyenglishwithcristina' ); ?></p>
+				<p><?php esc_html_e( 'I guarantee that learning English through conversation is the most effective way. First, you can build confidence from the start and use slag (English spoken phrases) instead of struggling with grammar. My lessons are easy and fun to follow.', 'easyenglishwithcristina' ); ?></p>
 				<!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -58,11 +58,11 @@
                 <!-- /wp:image -->
                  
                 <!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Conversazione per tutte le occasioni', 'easyenglishwithcristina' ); ?></h4>
+                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php esc_html_e( 'Conversation for all occasions', 'easyenglishwithcristina' ); ?></h4>
                 <!-- /wp:heading -->  
 
                  <!-- wp:paragraph -->
-				<p><?php echo esc_html_x( 'Secondo punto: impari il vocabolario in base alle tue esigenze. Lascia che ti faccia una domanda: "È possibile conoscere tutte le parole di un dizionario?" – Ovviamente no. E indovina un po\'? – Non è necessario. Uno studente principiante ha bisogno di appena 1000 parole per comunicare efficacemente. Quindi, imparare il vocabolario dalle situazioni conversazionali basate sulle esigenze degli studenti è il fattore chiave. Non dimenticare che ogni persona ha obiettivi diversi e, ad esempio, questo numero è più alto per uno studente che si sta preparando per un esame IELTS.', 'easyenglishwithcristina' ); ?></p>
+				<p><?php esc_html_e( 'Second, you learn vocabulary based on your need. Let me ask you a question. “Is it possible to know all the words in a dictionary?” – Of course not. And guess what? – You don’t have to. A beginner student just needs 1000 words to communicate effectively. So learning vocabulary form the conversational situations based on students’ needs is the key factor. Don’t forget English leaners have different goals, and for instance this number is higher for a student who is preparing for an IELTS exam.', 'easyenglishwithcristina' ); ?></p>
 				<!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -79,14 +79,11 @@
                 <!-- /wp:image -->
                  
                 <!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php echo esc_html_x( 'Suggerimenti pratici per migliorare il tuo inglese', 'easyenglishwithcristina' ); ?></h4>
+                <h4 class="wp-block-heading has-primary-color has-text-color has-link-color"><?php esc_html_e( 'Practice English ideas', 'easyenglishwithcristina' ); ?></h4>
                 <!-- /wp:heading -->  
 
-
-
-
-                 <!-- wp:paragraph -->
-				<p><?php echo esc_html_x( 'Sono qui per aiutarti lungo il tuo percorso. Imparare l\'inglese è un viaggio che richiede pazienza e pratica, e io farò in modo che tu rimanga motivato durante questo viaggio.', 'easyenglishwithcristina' ); ?></p>
+                <!-- wp:paragraph -->
+				<p><?php esc_html_e( 'Moreover, I am here to help you through your journey. Because learning English is a journey that requires patience and practice. I’m going to make sure that you stay motivated during this journey.', 'easyenglishwithcristina' ); ?></p>
 				<!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->

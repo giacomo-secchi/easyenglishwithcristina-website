@@ -27,11 +27,11 @@
 <!-- wp:site-tagline {"style":{"typography":{"textTransform":"uppercase","fontWeight":"300"}},"textColor":"secondary","fontSize":"medium"} /-->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"top":"0"}}}} -->
-<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php echo esc_html_x( 'Richiedi un preventivo', 'easyenglishwithcristina' ); ?></h2>
+<h2 class="wp-block-heading" id="lorem-ipsum" style="margin-top:0"><?php esc_html_e( 'Get in touch', 'easyenglishwithcristina' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Compila questo modulo di contatto e ti invieremo il preventivo per il tuo corso.</p>
+<p><?php esc_html_e( 'Fill out this quick contact form, and we will send you the estimate cost for your course.', 'easyenglishwithcristina' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:jetpack/contact-form {"to":"info@easyenglishwithcristina.com","className":"is-style-default"} -->

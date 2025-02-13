@@ -2,7 +2,7 @@
 
 /**
  * Title: Footer with copyright
- * Slug: write-white/footer
+ * Slug: blankspace/footer
  * Categories: footer
  * Block Types: core/template-part/footer
  * Keywords: newsletter, subscribe, button
@@ -18,19 +18,19 @@
 			<div class="wp-block-column" style="flex-basis:33.33%">			
 				<!-- wp:group {"layout":{"type":"flex"}} -->
 				<div class="wp-block-group">
-					<!-- wp:pattern {"slug":"write-white/branding"} /-->       
+					<!-- wp:pattern {"slug":"blankspace/branding"} /-->       
 				</div>
 				<!-- /wp:group -->
 				 
 				<!-- wp:paragraph {"style":{"typography":{"fontWeight":"300"}}} -->
-				<p style="font-weight:300"><?php echo esc_html_x( 'L\'inglese è una lingua globale. Immagina se potessi parlare in modo più fluente, potresti guadagnare di più e avere più successo nel lavoro, nello studio e nella vita. Quindi, inizia a imparare oggi stesso!', 'easyenglishwithcristina' ); ?></p>
+				<p style="font-weight:300"><?php esc_html_e( 'English is a global language. Imagine if you were a fluent speaker, you could make more money and become more successful in your work, study and life. So start learning today!', 'easyenglishwithcristina' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
 
 			<!-- wp:column {"width":"66.66%"} -->
 			<div class="wp-block-column" style="flex-basis:66.66%">
-				<!-- wp:pattern {"slug":"write-white/newsletter-subscribe-jetpack"} /-->
+				<!-- wp:pattern {"slug":"blankspace/newsletter-subscribe-jetpack"} /-->
 
 				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"}} -->
 				<div class="wp-block-group">
@@ -79,13 +79,7 @@
 			 	 
 						<!-- wp:column -->
 						<div  class="wp-block-column">	
-							<!-- wp:group {className":"language-switcher language-switcher-layout-1"} -->
-							<div class="wp-block-group language-switcher language-switcher-layout-1">
-								<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"write-white/translatepress-language-switcher"}}}} -->
-								<p>Language Switcher</p>
-								<!-- /wp:paragraph -->
-							</div>
-							<!-- /wp:group -->
+							<!-- wp:pattern {"slug":"blankspace/language-switcher"} /-->
 						</div>
 						<!-- /wp:column -->
 			
@@ -128,4 +122,4 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:pattern {"slug":"write-white/copyright"} /-->
+<!-- wp:pattern {"slug":"blankspace/copyright"} /-->

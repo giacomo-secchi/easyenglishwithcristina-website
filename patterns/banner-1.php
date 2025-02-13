@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header inside hero
- * Slug: write-white/banner-1
+ * Slug: easyenglishwithcristina/banner-1
  * Categories: header, banner, call-to-action
  * Keywords: header, nav, links, button
  * Viewport Width: 1500
@@ -25,7 +25,7 @@
 			 
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons"><!-- wp:button -->
-					<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-for-students/' ) ); ?>"><?php echo esc_html_x( 'English for Students →', 'easyenglishwithcristina' ); ?></a></div>
+					<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-for-students/' ) ); ?>"><?php esc_html_e( 'English for Students →', 'easyenglishwithcristina' ); ?></a></div>
 					<!-- /wp:button -->
 				</div>
 				<!-- /wp:buttons -->
