@@ -286,6 +286,9 @@
 		"typography": {
 			"fontFamily": "var:preset|font-family|lato",
 			"fontSize": "var:preset|font-size|medium"
+		},
+		"color": {
+			"background": "var:preset|color|white"
 		}
 	}
 }

@@ -26,44 +26,38 @@
 
     <!-- wp:columns {"align":"wide","style":{"border":{"radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
     <div class="wp-block-columns alignwide" style="border-radius:10px;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}},"border":{"radius":"20px"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-white-background-color has-background" style="border-radius:20px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-shvetsa-4226256.jpg","source":"file","title":"pexels-anna-shvets-4226256"},"backgroundSize":"cover"},"dimensions":{"minHeight":"220px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-                <div class="wp-block-group" style="min-height:220px"></div>
-                <!-- /wp:group -->
-
-                <!-- wp:heading {"textAlign":"center","level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php esc_html_e( 'Online lessons', 'easyenglishwithcristina' ); ?></h4>
-                <!-- /wp:heading -->
-            </div>
+        <div class="wp-block-column">
+            <!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-shvetsa-4226256.jpg","source":"file","title":"pexels-anna-shvets-4226256"},"backgroundSize":"cover"},"dimensions":{"minHeight":"220px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+            <div class="wp-block-group" style="min-height:220px"></div>
             <!-- /wp:group -->
+             
+            <!-- wp:heading {"textAlign":"center","level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
+            <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php esc_html_e( 'Online lessons', 'easyenglishwithcristina' ); ?></h4>
+            <!-- /wp:heading -->
         </div>
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}},"border":{"radius":"20px"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-white-background-color has-background" style="border-radius:20px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-shvets-production-7516283.jpg","source":"file","title":"pexels-shvets-production-7516283"},"backgroundSize":"cover"},"dimensions":{"minHeight":"220px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-                <div class="wp-block-group" style="min-height:220px"></div>
-                <!-- /wp:group -->
-
-                <!-- wp:heading {"textAlign":"center","level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php esc_html_e( 'In-person Lessons', 'easyenglishwithcristina' ); ?></h4>
-                <!-- /wp:heading -->
-            </div>
+        <div class="wp-block-column">
+            <!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-shvets-production-7516283.jpg","source":"file","title":"pexels-shvets-production-7516283"},"backgroundSize":"cover"},"dimensions":{"minHeight":"220px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+            <div class="wp-block-group" style="min-height:220px"></div>
             <!-- /wp:group -->
+
+            <!-- wp:heading {"textAlign":"center","level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
+            <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php esc_html_e( 'In-person Lessons', 'easyenglishwithcristina' ); ?></h4>
+            <!-- /wp:heading -->
         </div>
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}},"border":{"radius":"20px"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-white-background-color has-background" style="border-radius:20px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-kampus-5940846.jpg","source":"file","title":"pexels-kampus-5940846"},"backgroundSize":"cover"},"dimensions":{"minHeight":"220px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-                <div class="wp-block-group" style="min-height:220px"></div>
-                <!-- /wp:group -->
-
-                <!-- wp:heading {"textAlign":"center","level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php esc_html_e( 'Group lessons', 'easyenglishwithcristina' ); ?></h4>
-                <!-- /wp:heading -->
-            </div>
+        <div class="wp-block-column">
+            <!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-kampus-5940846.jpg","source":"file","title":"pexels-kampus-5940846"},"backgroundSize":"cover"},"dimensions":{"minHeight":"220px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+            <div class="wp-block-group" style="min-height:220px"></div>
             <!-- /wp:group -->
+
+            <!-- wp:heading {"textAlign":"center","level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
+            <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php esc_html_e( 'Group lessons', 'easyenglishwithcristina' ); ?></h4>
+            <!-- /wp:heading -->
         </div>
         <!-- /wp:column -->
     </div>

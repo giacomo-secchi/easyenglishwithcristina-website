@@ -33,7 +33,8 @@
 				<!-- /wp:heading -->
 
 				<!-- wp:columns -->
-				<div class="wp-block-columns"><!-- wp:column -->
+				<div class="wp-block-columns">
+					<!-- wp:column -->
 					<div class="wp-block-column">
 						<!-- wp:paragraph {
 							"metadata":{
@@ -53,8 +54,9 @@
 					<!-- /wp:column -->
 
 					<!-- wp:column -->
-					<div class="wp-block-column"><!-- wp:list {"className":"is-style-checked","fontSize":"display"} -->
-						<ul class="wp-block-list is-style-checked has-display-font-size"><!-- wp:list-item -->
+					<div class="wp-block-column">
+						<!-- wp:list {"className":"is-style-checked","fontSize":"display"} -->
+						<ul class="wp-block-list is-style-checked has-display-font-size">
 							<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
 							<li style="margin-bottom:var(--wp--preset--spacing--40)">
 								<!-- wp:paragraph {
