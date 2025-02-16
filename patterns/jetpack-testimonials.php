@@ -24,17 +24,6 @@
     </div>
     <!-- /wp:group -->
 
-
-              
-	<!-- wp:html -->
-	<?php
-		// print the newsletter shortcode this way to prevent the <p> tags from being added
-	 	echo do_shortcode( '[testimonials columns=3 display_content=full]' );
-	?>
-	<!-- /wp:html -->
-
-                 
-                
-    
+    <!-- wp:shortcode -->[testimonials columns=3 display_content=full]<!-- /wp:shortcode -->
 </div>
 <!-- /wp:group -->
