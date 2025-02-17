@@ -10,7 +10,7 @@ add_action( 'custom_language_span_output', function ( $args, $short_language_nam
 
 
 
-add_filter('woocommerce_checkout_fields', function ( $fields ) {
+add_filter( 'woocommerce_checkout_fields', function ( $fields ) {
    // Unset fields you want to remove
    unset( $fields['billing']['billing_company'] );
    unset( $fields['billing']['billing_address_1'] );
@@ -25,7 +25,4 @@ add_filter('woocommerce_checkout_fields', function ( $fields ) {
 } );
 
 // Remove Additional Information section heading and content
-add_filter('woocommerce_enable_order_notes_field', '__return_false');
-
-
-
+add_filter( 'woocommerce_enable_order_notes_field', '__return_false' );
