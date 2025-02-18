@@ -1,7 +1,6 @@
 <?php
 
 
-
 // Custom Language Switcher output
 add_action( 'custom_language_span_output', function ( $args, $short_language_name, $language_name, $flag_link ) {
    return '<span><img src="' . $flag_link .'">&nbsp;' . strtoupper( $short_language_name ) . '</span>';
@@ -26,3 +25,6 @@ add_filter( 'woocommerce_checkout_fields', function ( $fields ) {
 
 // Remove Additional Information section heading and content
 add_filter( 'woocommerce_enable_order_notes_field', '__return_false' );
+
+
+

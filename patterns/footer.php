@@ -113,7 +113,7 @@
 		<!-- /wp:social-links -->
  
 		<!-- wp:navigation {"overlayMenu":"never","fontSize":"small"} -->
-			<!-- wp:navigation-link {"label":"Sitemap","type":"custom","opensInNewTab":true,"url":"<?php echo esc_url( home_url( '/sitemap.xml' ) ); ?>","kind":"custom","isTopLevelLink":true} /-->
+			<!-- wp:navigation-link {"label":"Sitemap","type":"custom","opensInNewTab":true,"url":"<?php echo esc_url( home_url( 'sitemap.xml' ) ); ?>","kind":"custom","isTopLevelLink":true} /-->
 			<!-- wp:navigation-link {"label":"Open an Issue","type":"custom","url":"mailto:giacomosecchi@gmail.com?subject=Problema%20su%20sito%20Easy%20English%20w/%20Cristina","kind":"custom","isTopLevelLink":true} /-->
 			<!-- wp:navigation-link {"label":"Credits","type":"custom","opensInNewTab":true,"url":"https://giacomosecchi.com","kind":"custom","isTopLevelLink":true} /-->
  		<!-- /wp:navigation -->
