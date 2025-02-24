@@ -21,8 +21,8 @@
 		 
 		<!-- wp:site-tagline {"textAlign":"center","style":{"typography":{"textTransform":"uppercase","fontWeight":"300","fontStyle":"normal"}},"textColor":"secondary","fontSize":"medium"} /-->		
 		
-		<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0"}}}} -->
-		<h2 class="wp-block-heading has-text-align-center" id="lorem-ipsum" style="margin-top:0"><?php esc_html_e( 'Do you want to speak English more fluently?', 'easyenglishwithcristina' ); ?></h2>
+		<!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"0"}}}} -->
+		<h1 class="wp-block-heading has-text-align-center" style="margin-top:0"><?php esc_html_e( 'Do you want to speak English more fluently?', 'easyenglishwithcristina' ); ?></h1>
 		<!-- /wp:heading -->
 
 		 
@@ -44,11 +44,11 @@
 
 	 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-for-beginners/' ) ); ?>"><?php esc_html_e( 'English for Beginners →', 'easyenglishwithcristina' ); ?></a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
-	
+		<div class="wp-block-buttons"><!-- wp:button -->
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-for-beginners/' ) ); ?>"><?php esc_html_e( 'English for Beginners →', 'easyenglishwithcristina' ); ?></a></div>
+		<!-- /wp:button --></div>
+		<!-- /wp:buttons -->
+			
 		<!-- wp:spacer {"height":"60px"} -->
 		<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
