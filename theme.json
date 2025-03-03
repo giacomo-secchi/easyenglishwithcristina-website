@@ -254,20 +254,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var:preset|color|accent"
-				},
-				":hover": {
-					"typography": {
-						"textDecoration": "none"
-					}
-				},
-				":active": {
-					"color": {
-						"text": "var:preset|color|accent"
-					},
-					"typography": {
-						"textDecoration": "none"
-					}
+					"text": "var:preset|color|primary"
 				},
 				"typography": {
 					"textDecoration": "underline"

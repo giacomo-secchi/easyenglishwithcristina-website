@@ -10,8 +10,8 @@
  */
 ?>
 
-<!-- wp:cover {"metadata":{"name":"Merged banner with header"},"align":"center","url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-antonio-quagliata-227433.jpg","dimRatio":50,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","style":{"color":{"duotone":"var:preset|duotone|blue-and-lavender"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover aligncenter" style="min-height:100vh" id="header-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim has-background-dim "></span>
+<!-- wp:cover {"metadata":{"name":"Merged banner with header"},"align":"center","url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-antonio-quagliata-227433.jpg","dimRatio":50,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","align":"full","style":{"color":{"duotone":"var:preset|duotone|blue-and-lavender"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull aligncenter" style="min-height:100vh" id="header-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim has-background-dim "></span>
 <img class="wp-block-cover__image-background " alt="" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-antonio-quagliata-227433.jpg" data-object-fit="cover" />
     <div class="wp-block-cover__inner-container">
 	
@@ -35,14 +35,11 @@
 			<!-- /wp:embed -->	
 		</div>
 		<!-- /wp:group -->
-
 	
 		<!-- wp:paragraph {"align":"center","fontSize":"display"} -->
 		<p class="has-text-align-center has-display-font-size"><?php esc_html_e( 'Fluency practice speaking building confidence, Learning English is easy and fun!', 'easyenglishwithcristina' ); ?></p>
 		<!-- /wp:paragraph -->
-					
-
-	 
+						 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 		<div class="wp-block-buttons"><!-- wp:button -->
 		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( 'english-for-beginners/' ) ); ?>"><?php esc_html_e( 'English for Beginners →', 'easyenglishwithcristina' ); ?></a></div>

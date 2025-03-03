@@ -10,8 +10,8 @@
  */
 ?>
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-antonio-quagliata-227433.jpg","id":323,"dimRatio":50,"overlayColor":"primary","isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","style":{"color":{"duotone":"var:preset|duotone|blue-and-lavender"}}} -->
-<div class="wp-block-cover" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-323" alt="" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-antonio-quagliata-227433.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-antonio-quagliata-227433.jpg","id":323,"dimRatio":50,"overlayColor":"primary","isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","align":"full","style":{"color":{"duotone":"var:preset|duotone|blue-and-lavender"}}} -->
+<div class="wp-block-cover alignfull" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-323" alt="" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-antonio-quagliata-227433.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 
  
 	<!-- wp:columns {"align":"wide","style":{"layout":{"selfStretch":"fill","flexSize":null}}} -->
@@ -83,4 +83,3 @@
 </div></div>
 <!-- /wp:cover -->
  
-

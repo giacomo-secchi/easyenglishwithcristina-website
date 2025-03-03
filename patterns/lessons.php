@@ -13,7 +13,6 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70","padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
     <div class="wp-block-group alignwide">
-        
         <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"small"} -->
         <p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'Lesson Type', 'easyenglishwithcristina' ); ?></p>
         <!-- /wp:paragraph -->
@@ -24,8 +23,8 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:columns {"align":"wide","style":{"border":{"radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
-    <div class="wp-block-columns alignwide" style="border-radius:10px;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:column -->
+    <!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+    <div class="wp-block-columns alignwide" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:column -->
         <div class="wp-block-column">
             <!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-shvetsa-4226256.jpg","source":"file","title":"pexels-anna-shvets-4226256"},"backgroundSize":"cover"},"dimensions":{"minHeight":"220px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
             <div class="wp-block-group" style="min-height:220px"></div>
