@@ -10,4 +10,5 @@
 ?>
 
 <!-- wp:pattern {"slug":"easyenglishwithcristina/hero-home-blog"} /-->
+<!-- wp:pattern {"slug":"blankspace/banner-2-col-last-post"} /-->
 <!-- wp:pattern {"slug":"blankspace/template-query-loop-blog"} /-->
