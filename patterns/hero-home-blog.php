@@ -17,12 +17,12 @@
     <!-- /wp:paragraph -->
  
     <!-- wp:heading {"textAlign":"center","level":1,"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-    <h1 class="wp-block-heading alignwide has-text-align-center" style="margin-top:0;margin-bottom:0"><?php echo wp_kses_post( 'Master English with Ease and Fun <br> New Posts Every Friday!', 'Heading of the hero section', 'easyenglishwithcristina' ); ?></h1>
+    <h1 class="wp-block-heading alignwide has-text-align-center" style="margin-top:0;margin-bottom:0"><?php echo wp_kses_post( 'Master English with Ease and Fun <br> New Posts Every Week!', 'Heading of the hero section', 'easyenglishwithcristina' ); ?></h1>
     <!-- /wp:heading -->
 
      
     <!-- wp:paragraph {"className":"has-text-align-center","fontSize":"medium"} -->
-    <p class="has-text-align-center has-medium-font-size"><?php echo wp_kses_post( 'Welcome to my blog, where I share tips, tricks, and resources to help you master English in a fun and engaging way. Whether you’re a beginner or willing to brush up your skills, you’ll find practical advice, inspiring stories, and interactive content designed to make your learning journey smooth and exciting. Don’t forget to check out our website every Friday for a brand-new post. Our posts are packed with fresh insights and tools to boost your English skills. Let’s make learning English a joyful adventure together!', 'blankspace' ); ?></p>
+    <p class="has-text-align-center has-medium-font-size"><?php echo wp_kses_post( 'Welcome to my blog, where I share tips, tricks, and resources to help you master English in a fun and engaging way. Whether you’re a beginner or willing to brush up your skills, you’ll find practical advice, inspiring stories, and interactive content designed to make your learning journey smooth and exciting. Don’t forget to check out our website every week for a brand-new post. Our posts are packed with fresh insights and tools to boost your English skills. Let’s make learning English a joyful adventure together!', 'blankspace' ); ?></p>
     <!-- /wp:paragraph -->
 	 
 </div></div>

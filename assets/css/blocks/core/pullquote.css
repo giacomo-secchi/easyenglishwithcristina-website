@@ -1,0 +1,13 @@
+.wp-block-pullquote {
+    position: relative;
+}
+
+.wp-block-pullquote::before {
+    content: "\201D";
+    top: 50%;
+    position: absolute;
+    font-size: 500px;
+    line-height: 0;
+    opacity: .1;
+    right: 0;    
+}
