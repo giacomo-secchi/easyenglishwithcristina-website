@@ -42,15 +42,15 @@
 				 
 				<!-- wp:list -->
 				<ul class="wp-block-list"><!-- wp:list-item -->
-				<li><?php esc_html_e( 'facilitating learning process using different digital software', 'easyenglishwithcristina' ); ?></li>
+				<li><?php esc_html_e( 'Facilitating learning process using different digital software', 'easyenglishwithcristina' ); ?></li>
 				<!-- /wp:list-item -->
 
 				<!-- wp:list-item -->
-				<li><?php esc_html_e( 'presenting webinars', 'easyenglishwithcristina' ); ?></li>
+				<li><?php esc_html_e( 'Presenting webinars', 'easyenglishwithcristina' ); ?></li>
 				<!-- /wp:list-item -->
 
 				<!-- wp:list-item -->
-				<li><?php esc_html_e( 'preparing goal oriented lesson plans', 'easyenglishwithcristina' ); ?></li>
+				<li><?php esc_html_e( 'Preparing goal oriented lesson plans', 'easyenglishwithcristina' ); ?></li>
 				<!-- /wp:list-item --></ul>
 				<!-- /wp:list -->
 
