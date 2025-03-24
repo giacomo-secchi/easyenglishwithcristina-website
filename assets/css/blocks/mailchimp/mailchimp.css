@@ -1,0 +1,21 @@
+#mc_signup_submit {
+    background-color: var(--wp--preset--color--secondary);
+    border-radius: 3px;
+    border-width: 0;
+    color: var(--wp--preset--color--base);
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: calc(0.667em + 2px) calc(1.333em + 2px);
+    text-decoration: none;
+}
+
+.mc_custom_border_hdr {
+    font-size: var(--wp--preset--font-size--x-large);
+    font-weight: bold;
+}
+
+#mc_subheader {
+    font-size: var(--wp--preset--font-size--display);
+
+}
