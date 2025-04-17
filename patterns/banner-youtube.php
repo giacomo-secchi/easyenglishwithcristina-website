@@ -10,8 +10,8 @@
  */
 ?>
 
-<!-- wp:cover {"dimRatio":90,"overlayColor":"base","isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","contentPosition":"bottom center","isDark":false,"align":"full","style":{"spacing":{"padding":{"bottom":"0","top":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull is-light has-custom-content-position is-position-bottom-center" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:0;min-height:100vh" id="english-test"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-90 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<!-- wp:cover {"dimRatio":90,"overlayColor":"base","isUserOverlayColor":true,"contentPosition":"bottom center","isDark":false,"align":"full","style":{"spacing":{"padding":{"bottom":"0","top":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull is-light has-custom-content-position is-position-bottom-center" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:0" id="easyenglishwithcristina-youtube-banner"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-90 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"small"} -->
 <p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'Free Video Lessons', 'easyenglishwithcristina' ); ?></p>
 <!-- /wp:paragraph -->
