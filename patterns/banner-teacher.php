@@ -28,8 +28,8 @@
 <!-- /wp:heading -->
 				 
 				
-				<!-- wp:paragraph {"fontSize":"display"} -->
-				<p class="has-display-font-size"><?php echo wp_kses_post( 'I’m Cristina and I am a <strong>TESOL certified English teacher</strong> with <strong>+30 years of experience.</strong>', 'easyenglishwithcristina' ); ?></p>
+				<!-- wp:paragraph -->
+				<p><?php echo wp_kses_post( 'I’m Cristina and I am a <strong>TESOL certified English teacher</strong> with <strong>+30 years of experience.</strong>', 'easyenglishwithcristina' ); ?></p>
 				<!-- /wp:paragraph -->
 				 		 
 				<!-- wp:paragraph -->

@@ -36,8 +36,8 @@
 		</div>
 		<!-- /wp:group -->
 	
-		<!-- wp:paragraph {"align":"center","fontSize":"display"} -->
-		<p class="has-text-align-center has-display-font-size"><?php esc_html_e( 'Fluency practice speaking building confidence, Learning English is easy and fun!', 'easyenglishwithcristina' ); ?></p>
+		<!-- wp:paragraph {"align":"center"} -->
+		<p class="has-text-align-center"><?php esc_html_e( 'Fluency practice speaking building confidence, Learning English is easy and fun!', 'easyenglishwithcristina' ); ?></p>
 		<!-- /wp:paragraph -->
 						 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->

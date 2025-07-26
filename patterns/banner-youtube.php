@@ -31,7 +31,8 @@
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-buttons">
             <!-- wp:button -->
-            <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://www.youtube.com/@easyenglishwithcristina"><?php esc_html_e( 'Go to YouTube Channel ', 'easyenglishwithcristina' ); ?></a></div>
+            <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://www.youtube.com/@easyenglishwithcristina"><?php esc_html_e( 'Go to YouTube Channel ', 'easyenglishwithcristina' ); ?>
+        	<!-- wp:html -->&nbsp;<span class="dashicons dashicons-youtube"></span><!-- /wp:html --></a></div>
             <!-- /wp:button -->
         </div>
         <!-- /wp:buttons -->
