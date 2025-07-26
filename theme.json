@@ -60,12 +60,6 @@
 				"color": "var:preset|color|contrast",
 				"background": "var:preset|color|white",
 				"borderColor": "var:preset|color|base"
-			},
-			"jetpackTestimonial": {
-				"borderRadius": "0px",
-				"tileBorderRadius": "20px",
-				"tileBackground": "var:preset|color|white",
-				"width": "var(--wp--style--global--wide-size)"
 			}
 		},
 		"layout": {
@@ -127,47 +121,6 @@
 							]
 						}
 					]
-				}
-			],
-			"fontSizes": [
-				{
-					"name": "Tiny",
-					"slug": "tiny",
-					"size": "0.75rem"
-				},
-				{
-					"name": "Small",
-					"slug": "small",
-					"size": "0.8rem"
-				},
-				{
-					"name": "Medium",
-					"slug": "medium",
-					"size": "1rem"
-				},
-				{
-					"name": "Display",
-					"slug": "display",
-					"size": "1.2rem"
-				},
-				{
-					"fluid": {
-						"min": "1.75rem",
-						"max": "1.875rem"
-					},
-					"name": "Large",
-					"slug": "large",
-					"size": "1.875rem"
-				},
-				{
-					"name": "Extra Large",
-					"slug": "x-large",
-					"size": "2rem"
-				},
-				{
-					"name": "Extra Extra Large",
-					"slug": "xx-large",
-					"size": "clamp(1.1rem, 15vw, 3.5rem)"
 				}
 			]
 		}

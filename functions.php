@@ -26,5 +26,6 @@ add_filter( 'woocommerce_checkout_fields', function ( $fields ) {
 // Remove Additional Information section heading and content
 add_filter( 'woocommerce_enable_order_notes_field', '__return_false' );
 
+add_filter( 'blankspace_enable_dashicons', '__return_true' );
 
 
