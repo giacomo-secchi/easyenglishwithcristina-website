@@ -11,8 +11,8 @@ jobs:
     strategy:
       matrix:
         sync_pair:
-          - { local: 'themes', remote: '${{ vars.SSH_FOLDER }}/themes/' }
-          - { local: 'mu-plugins', remote: '${{ vars.SSH_FOLDER }}/mu-plugins/' }
+          - { local: 'themes', remote: '/themes/' }
+          - { local: 'mu-plugins', remote: '/mu-plugins/' }
     steps:
     - uses: actions/checkout@v5
 
@@ -29,12 +29,6 @@ jobs:
         if [ -n "${{ matrix.sync_pair.exclude }}" ]; then
           exclude_cmd="--exclude='${{ matrix.sync_pair.exclude }}'"
         fi
-
-        for pair in "${sync_pairs[@]}"; do
-          rsync -avz -e "ssh -i ~/.ssh/id_rsa" \
-            "$local_path" ${{ vars.SSH_USERNAME }}@${{ vars.SSH_HOST }}:"$remote_path"
-        done
-
 
         rsync -avz $exclude_cmd -e "ssh -i ~/.ssh/id_rsa" \
             "./${{ matrix.sync_pair.local }}/" \
