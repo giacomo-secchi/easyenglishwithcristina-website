@@ -21,8 +21,8 @@ jobs:
     - name: RSync Deploy
       run: |
         sync_pairs=(
-          "./themes/:${{ vars.SSH_FOLDER }}/test/"
-          "./mu-plugins/:${{ vars.SSH_FOLDER }}/test2/"
+          "./themes/:public_html/test/"
+          "./mu-plugins/:public_html/test2/"
         )
 
         for pair in "${sync_pairs[@]}"; do
