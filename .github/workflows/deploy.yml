@@ -13,6 +13,6 @@ jobs:
       ssh-username: ${{ vars.SSH_USERNAME }}
       ssh-folder: ${{ vars.SSH_FOLDER }}
     secrets:
-      SSH_KEY: ${{ secrets.SSH_KEY }}
+      ssh-key: ${{ secrets.SSH_KEY }}
 
 
