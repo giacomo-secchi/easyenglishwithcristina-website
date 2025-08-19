@@ -8,6 +8,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        sync_pair:
+          - { local: 'themes', remote: '${{ vars.SSH_FOLDER }}/themes/' }
+          - { local: 'mu-plugins', remote: '${{ vars.SSH_FOLDER }}/mu-plugins/' }
     steps:
     - uses: actions/checkout@v5
 
@@ -18,15 +23,19 @@ jobs:
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan -t rsa ${{ vars.SSH_HOST }} > ~/.ssh/known_hosts
 
-    - name: RSync Deploy
+    - name: Sync ${{ matrix.sync_pair.local }}
       run: |
-        sync_pairs=(
-          "./themes/:${{ vars.SSH_FOLDER }}/themes/"
-          "./mu-plugins/:${{ vars.SSH_FOLDER }}/mu-plugins/"
-        )
+        exclude_cmd=""
+        if [ -n "${{ matrix.sync_pair.exclude }}" ]; then
+          exclude_cmd="--exclude='${{ matrix.sync_pair.exclude }}'"
+        fi
 
         for pair in "${sync_pairs[@]}"; do
-          IFS=":" read -r local_path remote_path <<< "$pair"
-          rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa" \
+          rsync -avz -e "ssh -i ~/.ssh/id_rsa" \
             "$local_path" ${{ vars.SSH_USERNAME }}@${{ vars.SSH_HOST }}:"$remote_path"
         done
+
+
+        rsync -avz $exclude_cmd -e "ssh -i ~/.ssh/id_rsa" \
+            "./${{ matrix.sync_pair.local }}/" \
+            ${{ vars.SSH_USERNAME }}@${{ vars.SSH_HOST }}:"${{ vars.SSH_FOLDER }}${{ matrix.sync_pair.remote }}"
