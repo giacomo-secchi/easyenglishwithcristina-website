@@ -8,8 +8,3 @@ on:
 jobs:
   deploy:
     uses: WritePoetry/reusable-workflows/.github/workflows/sync-folders-to-server.yml@main
-    permissions:
-      contents: write
-      packages: read
-      actions: read
-    secrets: inherit
