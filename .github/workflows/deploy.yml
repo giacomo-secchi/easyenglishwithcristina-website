@@ -21,13 +21,12 @@ jobs:
     - name: RSync Deploy
       run: |
         sync_pairs=(
-          "./theme/:${{ vars.SSH_FOLDER }}/test/"
+          "./themes/:${{ vars.SSH_FOLDER }}/test/"
           "./mu-plugins/:${{ vars.SSH_FOLDER }}/test2/"
         )
 
         for pair in "${sync_pairs[@]}"; do
           IFS=":" read -r local_path remote_path <<< "$pair"
-          echo "🚀 Syncing $local_path to $remote_path"
           rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa" \
             "$local_path" ${{ vars.SSH_USERNAME }}@${{ vars.SSH_HOST }}:"$remote_path"
         done
