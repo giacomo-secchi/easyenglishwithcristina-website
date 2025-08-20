@@ -27,17 +27,19 @@ if ( ! defined( 'WP_ENVIRONMENT_TYPE' ) ) {
 }
 
 
+/*
+ * Register additional theme directories.
+ */
+if ( defined( 'ADDITIONAL_THEME_DIR' ) ) {
+	register_theme_directory( trailingslashit( ABSPATH ) . ADDITIONAL_THEME_DIR );
+}
+
+
 // Disable Plugin and Theme Update and Installation
 define( 'DISALLOW_FILE_MODS', false );
 
 
-/**
- * Hard code Google Tag Manager parameters
- * @link https://gtm4wp.com/gtm4wp-for-developers/hard-code-google-tag-manager-parameters-in-wp-config-php
- */
-define( 'GTM4WP_HARDCODED_GTM_ID', 'GTM-W9CRL5D' );
-define( 'GTM4WP_HARDCODED_GTM_ENV_AUTH', 'Dhr_-0vJuMvL70-rUd1YPA' );
-define( 'GTM4WP_HARDCODED_GTM_ENV_PREVIEW', 'env-1' );
+
 
 
 // Enable maintenance mode
@@ -242,3 +244,4 @@ add_filter( 'woocommerce_checkout_fields', function ( $fields ) {
 add_filter( 'woocommerce_enable_order_notes_field', '__return_false' );
 
 add_filter( 'blankspace_enable_dashicons', '__return_true' );
+
