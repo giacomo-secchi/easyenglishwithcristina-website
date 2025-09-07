@@ -14,4 +14,4 @@ if ( ! is_paged() ) {
     echo '<!-- wp:pattern {"slug":"blankspace/banner-2-col-sticky-posts"} /-->';
 }
 ?>
-<!-- wp:pattern {"slug":"blankspace/template-query-loop-blog"} /-->
+<!-- wp:pattern {"slug":"blankspace/template-query-loop"} /-->
