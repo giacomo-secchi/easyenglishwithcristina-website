@@ -27,12 +27,13 @@ if ( ! defined( 'WP_ENVIRONMENT_TYPE' ) ) {
 }
 
 
-/*
- * Register additional theme directories.
- */
-if ( defined( 'ADDITIONAL_THEME_DIR' ) ) {
-	register_theme_directory( trailingslashit( ABSPATH ) . ADDITIONAL_THEME_DIR );
-}
+
+add_filter(
+	'writepoetry_register_theme_directories',
+	function () {
+		return array( 'easyenglishwithcristina-website/themes' );
+	}
+);
 
 
 // Disable Plugin and Theme Update and Installation
@@ -245,3 +246,18 @@ add_filter( 'woocommerce_enable_order_notes_field', '__return_false' );
 
 add_filter( 'blankspace_enable_dashicons', '__return_true' );
 
+
+
+
+// Exclude sticky posts from main query and set posts per page to 12.
+add_action('pre_get_posts', function ( $query ) {
+    if ( ! is_admin() && $query->is_main_query() ) {
+		$sticky_posts = get_option( 'sticky_posts' );
+        
+		if ( ! empty( $sticky_posts ) ) {
+            $query->set( 'post__not_in', $sticky_posts );
+        }
+		$query->set( 'posts_per_page', 12 );
+
+    }
+}, 10, 2 );
