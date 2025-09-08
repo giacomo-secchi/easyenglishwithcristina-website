@@ -1,4 +1,6 @@
 .wp-block-read-more::after {
-    content: ' →'; /* Unicode arrow character */
-    margin-left: 5px; /* Space between text and arrow */
+    content: '\00a0\f344';
+    font-family: 'dashicons';
+    vertical-align: middle;
 }
+
