@@ -4,3 +4,43 @@
         min-height: 810px !important;
     }
 }
+
+
+.wp-block-group.subscribe-newsletter-brevo input[type=email] {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	border: 1px solid var(--wp--preset--color--black);
+  
+}
+
+.wp-block-group.subscribe-newsletter-brevo input[type=submit] {
+    background-color: var(--wp--preset--color--secondary);
+    border-radius: var(--wp--custom--button--border-radius);
+    color: var(--wp--preset--color--base);
+    border: 0;
+    cursor: pointer;
+}
+
+.wp-block-group.subscribe-newsletter-brevo input[type=email],
+.wp-block-group.subscribe-newsletter-brevo input[type=submit] {
+    padding:  calc(0.667em + 2px) calc(1.333em + 2px);
+    font-size: var(--wp--preset--font-size--medium);
+    font-family: inherit;  
+}
+
+.wp-block-group.subscribe-newsletter-brevo .sib_signup_box_inside_2,
+.wp-block-group.subscribe-newsletter-brevo .sib_signup_box_inside_2  > p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wp-block-group.subscribe-newsletter-brevo .sib_signup_box_inside_2 > .sib-email-area + p,
+.wp-block-group.subscribe-newsletter-brevo .sib_signup_box_inside_2 > p > input {
+    flex: 1;
+}
+
+.wp-block-group.subscribe-newsletter-brevo .sib_signup_box_inside_2 > .sib-email-area {
+    flex: 1 1 64%;
+}
+

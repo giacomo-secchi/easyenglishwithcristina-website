@@ -30,7 +30,7 @@
 
 			<!-- wp:column {"width":"66.66%"} -->
 			<div class="wp-block-column" style="flex-basis:66.66%">
-				<!-- wp:pattern {"slug":"blankspace/newsletter-subscribe-jetpack"} /-->
+				<!-- wp:pattern {"slug":"blankspace/newsletter-subscribe-brevo"} /-->
 
 				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"}} -->
 				<div class="wp-block-group">

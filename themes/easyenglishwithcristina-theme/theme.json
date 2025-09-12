@@ -180,6 +180,9 @@
 		},
 		"elements": {
 			"button": {
+				"typography": {
+					"fontWeight": "600"
+				},
 				"color": {
 					"background": "var:preset|color|secondary"
 				},
