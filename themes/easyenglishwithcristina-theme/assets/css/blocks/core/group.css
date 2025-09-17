@@ -6,6 +6,17 @@
 }
 
 
+.banner-subscribe-newsletter .sib_signup_box_inside_3 input {
+    display: block;
+    padding: var(--wp--preset--font-size--medium);
+    width: 100%;
+}
+
+.banner-subscribe-newsletter .sib_signup_box_inside_3 {
+    color: var(--wp--preset--color--white);
+}
+
+
 .wp-block-group.subscribe-newsletter-brevo input[type=email] {
 	-webkit-appearance: none;
     -moz-appearance: none;
@@ -14,6 +25,7 @@
   
 }
 
+.wp-block-group.banner-subscribe-newsletter input[type=submit],
 .wp-block-group.subscribe-newsletter-brevo input[type=submit] {
     background-color: var(--wp--preset--color--secondary);
     border-radius: var(--wp--custom--button--border-radius);
