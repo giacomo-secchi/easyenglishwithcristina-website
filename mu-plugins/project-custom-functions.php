@@ -251,7 +251,7 @@ add_filter( 'blankspace_enable_dashicons', '__return_true' );
 
 // Exclude sticky posts from main query and set posts per page to 12.
 add_action('pre_get_posts', function ( $query ) {
-    if ( ! is_admin() && $query->is_main_query() ) {
+    if ( ! is_admin() && $query->is_main_query() && $query->is_home() ) {
 		$sticky_posts = get_option( 'sticky_posts' );
         
 		if ( ! empty( $sticky_posts ) ) {
