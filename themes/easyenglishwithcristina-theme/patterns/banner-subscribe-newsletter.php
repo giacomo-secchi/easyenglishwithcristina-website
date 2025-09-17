@@ -11,8 +11,8 @@
 
 
 
-<!-- wp:group {"align":"full","className":"banner-subscribe-newsletter","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/banner-subscribe-newsletter.png","source":"file","title":"pexels-quill-j-154796843-33425453"},"backgroundSize":"contain","backgroundAttachment":"scroll","backgroundRepeat":"no-repeat","backgroundPosition":"50% 100%"},"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull banner-subscribe-newsletter has-primary-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"textAlign":"left","level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+<!-- wp:group {"align":"full","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/banner-subscribe-newsletter.png","source":"file","title":"pexels-quill-j-154796843-33425453"},"backgroundSize":"contain","backgroundAttachment":"scroll","backgroundRepeat":"no-repeat","backgroundPosition":"50% 100%"},"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-primary-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"textAlign":"left","level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
 <h3 class="wp-block-heading has-text-align-left has-white-color has-text-color has-link-color">Want to level up your English? ✨</h3>
 <!-- /wp:heading -->
 
